@@ -1,0 +1,12 @@
+{
+    "noun": [ "cat" ],
+    "verb": [ "sit" ],
+    "adjective": [ "green" ],
+    "object": [ "the #noun#", "#noun.a", "#noun.s", "the #noun.s", "the #adjective# #noun#", "#adjective.a# #noun#", "#adjective# #noun.s#" , "the #adjective# #noun.s#" ],
+    "subject": [ "the #noun#", "#noun.a", "#noun.s", "the #noun.s", "the #adjective# #noun#", "#adjective.a# #noun#", "#adjective# #noun.s#" , "the #adjective# #noun.s#" ],
+    "condition": [ "#object# #verb.s# #adjective.a# #noun#" ],
+    "conditions": [ "When #condition# and #condition#", "When #condition#, when #condition#", "When #condition# and #condition#" ],
+    "event": [ "" ],
+    "events": [ "#event#" ],
+    "origin": [ "#conditions#, #events#" ]
+}
