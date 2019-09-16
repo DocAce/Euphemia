@@ -29,6 +29,13 @@
                 "#boronVowel.capitalize##boronSecondConsonant##boronVowel#us",
                 "#boronVowel.capitalize##boronSecondConsonant##boronVowel##boronLastConsonant##boronVowel#us" ],
 
+  "paranidStartConsonant": [ "h", "k", "l", "r", "t" ],
+  "paranidConsonant": [ "b", "ck", "h", "k", "l", "r", "t" ],
+  "paranidVowel": [ "a", "i", "o", "u" ],
+  "paranidFullRandomName": [ "#paranidFullRandomFirstName.capitalize#mack#paranidFullRandomLastName#" ],
+
+  "splitFullRandomName": [ "#boronFirstConsonant.capitalize##boronVowel##boronSecondConsonant##boronVowel# #boronLastConsonant.capitalize##boronVowel#" ],
+
   "teladiStart": [ "Da", "De", "Fo", "Ga", "Go", "Gra", "Gu", "Ha", "He", "Hi", "Ho", "Hu", "Jo", "Ko", "La", "Li", "Lo", "Lu", "Mo", "Ru", "Run", "Ter", "Tiss", "Wo", "Tran", "Tro", "Tu", "Tze", "U", "", "We", "Ya", "Yo", "Yu", "Yus", "Zu" ],
   "teladiMiddle": [ "a", "ba", "di", "e", "eo", "ga", "gi", "go", "gu", "ha", "hi", "ho", "hu", "i", "ka", "la", "li", "lo", "lun", "ma", "mu", "na", "ne", "ni", "nu", "o", "ra", "ri", "ru", "sa", "se", "si", "so", "sso", "ssu", "su", "ta", "te", "ti", "to", "tu", "u", "wi", "ya", "yu", "zu" ],
   "teladiEnd": [ "as", "bas", "bis", "bus", "das", "dis", "dos", "dras", "gis", "gos", "is", "klis", "lbus", "lis", "los", "mas", "nas", "ndis", "nis", "nos", "os", "ras", "ris", "ses", "sis", "sos", "ssas", "ssos", "tis", "tos" ],

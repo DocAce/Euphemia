@@ -4,6 +4,7 @@ import importlib
 from types import ModuleType
 import time
 import euphemia
+import euphemia_token
 
 bot = discord.Client()
 
@@ -42,7 +43,7 @@ async def on_message(message):
 while True:
     try:
         print('Running bot')
-        bot.run('')
+        bot.run(euphemia_token.token)
     except Exception as e:
         print('Exception caught:')
         print(str(e))
