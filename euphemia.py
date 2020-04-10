@@ -2,7 +2,6 @@ import discord # pylint: disable=import-error
 import string
 import euphemia_gens
 import euphemia_gm
-import euphemia_tf
 import dicey
 
 punctuation_remover = str.maketrans('', '', string.punctuation)
@@ -39,10 +38,11 @@ async def handle_message(message, bot):
     elif args[0] == '-roll':
         await bot.send_message(message.channel, dicey.generate_dice_roll_output(args))
     elif args[0] == '-generate':
-        if 'name' in commands:
-            await bot.send_message(message.channel, euphemia_gens.generate_x_name_from_args(args))
-        elif 'sector' in commands:
+        args = args[1:]
+        if 'sector' in commands:
             await bot.send_message(message.channel, euphemia_gens.generate_x_sector_from_args(args))
+        elif 'name' in commands:
+            await bot.send_message(message.channel, euphemia_gens.generate_x_name_from_args(args))
         elif 'teladiname' in commands:
             await bot.send_message(message.channel, euphemia_gens.xnames.flatten('#teladiFullRandomName#'))
         elif 'boronname' in commands:
@@ -59,7 +59,7 @@ async def handle_message(message, bot):
             await bot.send_message(message.channel, euphemia_gens.gmprompt.flatten('#origin#'))
         elif 'eldergod' in commands:
             await bot.send_message(message.channel, euphemia_gens.generate_elder_god(args))
+        elif 'xpatch' in commands:
+            await bot.send_message(message.channel, euphemia_gens.generate_x_patch(message.content[17:]))
         else:
             await bot.send_message(message.channel, generate_text)
-    elif args[0] == '-tf' in commands:
-        await bot.send_message(message.channel, euphemia_tf.tf_test())

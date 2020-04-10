@@ -1,6 +1,7 @@
 import json
 import tracery # pylint: disable=import-error
 from tracery.modifiers import base_english # pylint: disable=import-error
+import markovify # pylint: disable=import-error
 import string
 
 with open('xnames.json') as xnamesfile:
@@ -27,6 +28,12 @@ with open('eldergod.json') as eldergodfile:
     print('Loading eldergod.json')
     eldergod = tracery.Grammar(json.load(eldergodfile))
     eldergod.add_modifiers(base_english)
+
+with open('xpatch.txt') as xpatchfile:
+    print('Loading xpatch.txt')
+    xpatchtext = xpatchfile.read()
+    xpatchmodel = markovify.NewlineText(xpatchtext)
+    print('xpatch.txt loaded and processed')
 
 races = ['argon', 'boron', 'paranid', 'split', 'teladi', 'terran', 'xenon']
 player_races = ['argon', 'boron', 'paranid', 'split', 'teladi', 'terran']
@@ -93,3 +100,9 @@ def generate_dwpw_place(args):
 def generate_elder_god(args):
     #TODO: support arguments similar to generate_name()
     return eldergod.flatten("#origin#")
+
+def generate_x_patch(start):
+    if start:
+        return xpatchmodel.make_sentence_with_start(start)
+    else:
+        return xpatchmodel.make_sentence()

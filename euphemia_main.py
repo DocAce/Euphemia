@@ -40,12 +40,9 @@ async def on_message(message):
         else:
             await euphemia.handle_message(message, bot)
 
-while True:
-    try:
-        print('Running bot')
-        bot.run(euphemia_token.token)
-    except Exception as e:
-        print('Exception caught:')
-        print(str(e))
-        print('Rerunning in 5 seconds')
-        time.sleep(5)
+try:
+    print('Running bot')
+    bot.run(euphemia_token.token)
+except Exception as e:
+    print('Exception caught:')
+    print(str(e))
