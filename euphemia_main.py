@@ -1,4 +1,5 @@
 import discord # pylint: disable=import-error
+import tweepy # pylint: disable=import-error
 import asyncio
 import importlib
 from types import ModuleType
@@ -6,9 +7,13 @@ import time
 import euphemia
 import euphemia_token
 
-bot = discord.Client()
+discordbot = discord.Client()
+# twitterauth = tweepy.OAuthHandler(twitterapikey, twitterapisecretkey)
+# twitterauth.set_access_token(twitteraccesstoken, twitteraccesstokensecret)
+# twitterapi = tweepy.API(auth)
+# https://docs.tweepy.org/en/latest/api.html
 
-allow_reload = ['discord', 'tracery', 'euphemia', 'euphemia_gens', 'euphemia_gm', 'dicey']
+allow_reload = ['discord', 'tweepy', 'tracery', 'euphemia', 'euphemia_gens', 'euphemia_gm', 'dicey']
 modules_to_reload = []
 
 def get_modules_recursive(module):
@@ -25,24 +30,24 @@ def reload_modules(basemodule):
     for module in modules_to_reload:
         importlib.reload(module)
 
-@bot.event
+@discordbot.event
 async def on_ready():
-    print('Logged in as ' + bot.user.name + ' (ID: ' + bot.user.id + ')')
+    print('Logged in as ' + discordbot.user.name + ' (ID: ' + str(discordbot.user.id) + ')')
 
-@bot.event
+@discordbot.event
 async def on_message(message):
-    if message.author != bot.user:
-        isdm = message.server is None
+    if message.author != discordbot.user:
+        isdm = message.guild is None
         if isdm and 'reload' in message.content: # only handle reload command in here, and only if it's a DM
-            tmp = await bot.send_message(message.channel, 'Reloading...')
+            tmp = await message.channel.send('Reloading...')
             reload_modules(euphemia)
-            await bot.edit_message(tmp, 'Reload done.')
+            await tmp.edit(content='Reload done.')
         else:
-            await euphemia.handle_message(message, bot)
+            await euphemia.handle_message(message, discordbot)
 
 try:
-    print('Running bot')
-    bot.run(euphemia_token.token)
+    print('Running discord bot')
+    discordbot.run(euphemia_token.token)
 except Exception as e:
     print('Exception caught:')
     print(str(e))

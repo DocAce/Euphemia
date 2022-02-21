@@ -16,12 +16,15 @@ generate_text = ('To generate some text, type `-generate [generator]`. Some gene
                  'The generators are:\n'
                  '`name`: Creates a random name from the X universe. Accepts a race and/or a gender as parameters. The order of parameters is not important. Example: `-generate split female name`\n'
                  '`sector`: Creates a random sector name from the X universe. Accepts a race as a parameter. Example: `-generate split sector`\n'
-                 '`teladiname` and `boronname` are more freeform name generators than the above and can generate output that is not found in X4.\n'
+                 '`teladiname`, `boronname`, `paranidname`, `splitname`, `splitmalename` and `splitfemalename` are more freeform name generators than the above and can generate output that is not found in X4.\n'
                  '`xchar`: Generate a character for the X universe.\n'
+                 '`xpatch`: Generate a patch note for X4.\n'
+                 '`x3sector`: Generate a sector description. Often nonsensical.\n'
                  '`dwchar`: Generate a Dungeon World character.\n'
                  '`pwregion`: Generate the name of a region in the Perilous Wilds.\n'
                  '`pwplace`: Generate the name of a place in the Perilous Wilds.\n'
                  '`gmprompt`: Generate a prompt a game master might give a player. Often silly.\n'
+                 '`quest`: Generate a quest.\n'
                  '`eldergod`: Generates the name and domain of an elder god. If you read the output do a sanity check.')
 
 async def handle_message(message, bot):
@@ -30,36 +33,50 @@ async def handle_message(message, bot):
     args = args.split(' ')
     commands = commands.split(' ')
     if args[0] == '-help':
-        await bot.send_message(message.channel, help_text)
+        await message.channel.send(help_text)
     elif args[0] == '-game':
-        await bot.send_message(message.channel, euphemia_gm.handle_message(message, commands, args))
+        await message.channel.send(euphemia_gm.handle_message(message, commands, args))
     elif args[0] == '-flip':
-        await bot.send_message(message.channel, dicey.generate_coin_flip_output(args))
+        await message.channel.send(dicey.generate_coin_flip_output(args))
     elif args[0] == '-roll':
-        await bot.send_message(message.channel, dicey.generate_dice_roll_output(args))
+        await message.channel.send(dicey.generate_dice_roll_output(args))
     elif args[0] == '-generate':
         args = args[1:]
         if 'sector' in commands:
-            await bot.send_message(message.channel, euphemia_gens.generate_x_sector_from_args(args))
+            await message.channel.send(euphemia_gens.generate_x_sector_from_args(args))
         elif 'name' in commands:
-            await bot.send_message(message.channel, euphemia_gens.generate_x_name_from_args(args))
+            await message.channel.send(euphemia_gens.generate_x_name_from_args(args))
         elif 'teladiname' in commands:
-            await bot.send_message(message.channel, euphemia_gens.xnames.flatten('#teladiFullRandomName#'))
+            await message.channel.send(euphemia_gens.xnames.flatten('#teladiFullRandomName#'))
         elif 'boronname' in commands:
-            await bot.send_message(message.channel, euphemia_gens.xnames.flatten('#boronFullRandomName#'))
+            await message.channel.send(euphemia_gens.xnames.flatten('#boronFullRandomName#'))
+        elif 'paranidname' in commands:
+            await message.channel.send(euphemia_gens.xnames.flatten('#paranidFullRandomName#'))
+        elif 'splitname' in commands:
+            await message.channel.send(euphemia_gens.xnames.flatten('#splitFullRandomName#'))
+        elif 'splitmalename' in commands:
+            await message.channel.send(euphemia_gens.xnames.flatten('#splitMaleFullRandomName#'))
+        elif 'splitfemalename' in commands:
+            await message.channel.send(euphemia_gens.xnames.flatten('#splitFemaleFullRandomName#'))
         elif 'xchar' in commands:
-            await bot.send_message(message.channel, euphemia_gens.generate_x_character(args))
+            await message.channel.send(euphemia_gens.generate_x_character(args))
         elif 'dwchar' in commands:
-            await bot.send_message(message.channel, euphemia_gens.generate_dw_character(args))
+            await message.channel.send(euphemia_gens.generate_dw_character(args))
         elif 'pwregion' in commands:
-            await bot.send_message(message.channel, euphemia_gens.dwpw.flatten('#region#'))
+            await message.channel.send(euphemia_gens.dwpw.flatten('#region#'))
         elif 'pwplace' in commands:
-            await bot.send_message(message.channel, euphemia_gens.dwpw.flatten('#place#'))
+            await message.channel.send(euphemia_gens.dwpw.flatten('#place#'))
         elif 'gmprompt' in commands:
-            await bot.send_message(message.channel, euphemia_gens.gmprompt.flatten('#origin#'))
+            await message.channel.send(euphemia_gens.gmprompt.flatten('#origin#'))
+        elif 'quest' in commands:
+            await message.channel.send(euphemia_gens.gmprompt.flatten('#quest#'))
         elif 'eldergod' in commands:
-            await bot.send_message(message.channel, euphemia_gens.generate_elder_god(args))
+            await message.channel.send(euphemia_gens.generate_elder_god(args))
         elif 'xpatch' in commands:
-            await bot.send_message(message.channel, euphemia_gens.generate_x_patch(message.content[17:]))
+            await message.channel.send(euphemia_gens.generate_x_patch(message.content[17:]))
+        elif 'x3sector' in commands:
+            await message.channel.send(euphemia_gens.generate_x3_sectordesc(message.content[19:]))
+        elif 'x4sector' in commands:
+            await message.channel.send(euphemia_gens.generate_x4_sectordesc(message.content[19:]))
         else:
-            await bot.send_message(message.channel, generate_text)
+            await message.channel.send(generate_text)

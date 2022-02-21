@@ -35,6 +35,18 @@ with open('xpatch.txt') as xpatchfile:
     xpatchmodel = markovify.NewlineText(xpatchtext)
     print('xpatch.txt loaded and processed')
 
+with open('x3sectordesc.txt') as x3sectordescfile:
+    print('Loading x3sectordesc.txt')
+    x3sectordesctext = x3sectordescfile.read()
+    x3sectordescmodel = markovify.NewlineText(x3sectordesctext)
+    print('x3sectordesc.txt loaded and processed')
+
+with open('x4sectordesc.txt') as x4sectordescfile:
+    print('Loading x4sectordesc.txt')
+    x4sectordesctext = x4sectordescfile.read()
+    x4sectordescmodel = markovify.NewlineText(x4sectordesctext)
+    print('x4sectordesc.txt loaded and processed')
+
 races = ['argon', 'boron', 'paranid', 'split', 'teladi', 'terran', 'xenon']
 player_races = ['argon', 'boron', 'paranid', 'split', 'teladi', 'terran']
 genders = ['male', 'female', 'lar']
@@ -106,3 +118,15 @@ def generate_x_patch(start):
         return xpatchmodel.make_sentence_with_start(start)
     else:
         return xpatchmodel.make_sentence()
+
+def generate_x3_sectordesc(start):
+    if start:
+        return x3sectordescmodel.make_sentence_with_start(start)
+    else:
+        return x3sectordescmodel.make_sentence()
+
+def generate_x4_sectordesc(start):
+    if start:
+        return x4sectordescmodel.make_sentence_with_start(start)
+    else:
+        return x4sectordescmodel.make_sentence()

@@ -1460,3 +1460,1272 @@ Fixed platform guidance lines going haywire when in certain interiors, e.g. on T
 Fixed stuck tooltips in certain situations.
 Fixed several missing or incorrect English language voice recordings.
 Fixed several causes of crashes.
+
+Added mission to expand HQ if selected research requires excessive resources.
+Removed Dal Busta dialog option after Split story is completed.
+Changed New Game menu to show tutorials at top.
+Improved balance and pricing of recruitable personnel on station docks.
+Improved performance for games where player owns very large number of ships and stations.
+Improved colour differentiation between racial Construction Vessel ships.
+Improved storage capacity of Split mining ships.
+Improved mastering of legacy music tracks.
+Fixed certain hazardous regions giving massive numbers of crystal drops.
+Fixed wrong faction sometimes being blamed when ships or stations are destroyed.
+Fixed mining drones not launching to collect broken-down asteroids they had earlier marked for collection but didn't collect due to cancellation.
+Fixed cases of defence drones docking before all are launched sometimes preventing any further defence drones from being launched.
+Fixed male Split characters sometimes having female voices with Split Vendetta installed.
+Fixed HQ laboratory being removed when reconfiguring station.
+Fixed AI ships attacking indestructible objects indefinitely.
+Fixed player account balance potentially going below zero.
+Fixed being completely unable to manually dock Drill without docking software.
+Fixed hatch on Gorgon closing too soon when leaving in spacesuit.
+Fixed high loadout presets not favouring Docking Computer Mk2 if compatible.
+Fixed Elephant sometimes being equipped with Spacesuit Scanner.
+Fixed Raptor not being able to mount large missile turrets.
+Fixed build times for station modules taking much longer than they should.
+Fixed spacesuit oxygen replenishing after saving and loading.
+Fixed certain drops being repelled by container magnet.
+Fixed lasertowers deployed by player in Hatikvah mission not changing owner
+Fixed wrong player-owned ship sometimes being destroyed during HQ story.
+Fixed invulnerable ship during Split plot.
+Fixed Dal Busta not offering Split story at HQ after player rejects story offer until save and reload.
+Fixed Dal Busta not offering Paranid/Split storyline when starting from Accomplished Scientist gamestart.
+Fixed Dal Busta calling to talk about multiple plot opportunities at same time.
+Fixed signal leaks not being generated in Accomplished Scientist gamestart
+Fixed Paranid plot mission Prophetic Mission stalling because of missing dock.
+Fixed Paranid plot getting stuck at Remain Vigilant objective.
+Fixed excessive delay between HQ plot related signal leaks if one was previously missed.
+Fixed missing equipment for multiple factions when starting Paranid plot with older saves.
+Fixed Paranid plot battle taking place in wrong sector under rare circumstances.
+Fixed excessive ware amounts required for final stage of Paranid plot.
+Fixed Fires of Defeat gamestart long-term mission getting stuck because of captured ships.
+Fixed Hatikvah story getting stuck in rare situations during bomb-placing mission.
+Fixed various missions being offered by incorrect faction.
+Fixed player ship not coming to stop during certain cutscenes.
+Fixed missions offered by NPCs on dock areas incorrectly appearing in Mission Offers menu.
+Fixed mismatched ships and loadouts when editing shopping list entries in Ship Configuration menu.
+Fixed missile turret capacities not being included in loadout information.
+Fixed lasertower engines and weapons being shown in Encyclopedia.
+Fixed missing images for some objects in Encyclopedia.
+Fixed missing option to delete incompatible saves in Load Game.
+Fixed missing Dock Interactions menu in certain situations.
+Fixed missing mouse picking on map after closing Mission Briefing in certain situations.
+Fixed missing tabs in Property Owned menu in certain situations.
+Fixed rectangular target elements being displayed in first person in certain situations.
+Fixed further cases of NPCs not being targetable on platforms.
+Fixed menu crash in Info menu in certain situations.
+Fixed long but rare freeze on Map.
+Fixed several cases of Split storage modules appearing offset in station build menu.
+Fixed lower front windscreen not being transparent when looking from outside on Kestrel.
+Fixed turret group assignment and position of some turrets on Rattlesnake, Monitor and Odysseus.
+Fixed paint mods on Raptor not being aligned correctly.
+Fixed Split flak turrets not using correct barrel geometry.
+Fixed weapon positions on Mamba.
+Fixed player logo not being properly visible on Monitor.
+Fixed some missing voice recordings in German, French and Russian localisations.
+Fixed engine sound problems under specific circumstances.
+Fixed suspense music playing while on station.
+Fixed graphical artefacts for AMD Navi GPUs (5600/5700).
+Fixed rare problem with platform guidance causing performance to drop.
+Fixed several causes of crashes.
+
+Fixed savegames stuck during bomb section of Hatikvah plot.
+Fixed Dal Busta not being in correct story location in certain savegames based on Accomplished Scientist gamestart.
+Fixed missing NPC in Premium Nividium mission.
+Fixed Split Plot not progressing during Suspicious Split transport mission when destination is destroyed.
+Fixed excessive wares required for final stage of Split plot.
+Fixed By Invitation Only mission getting stuck in certain cases.
+Fixed Paranid plot missions Supreme Interior Design and A Fearsome Flagship getting stuck under certain circumstances.
+Fixed Hall of Justice station not repairing damaged modules.
+Fixed station wrecks starting to rotate when fully destroyed.
+Fixed ships warping thousands of kilometres after going through a gate.
+Fixed fog of war not being uncovered reliably.
+Fixed Explore order not working correctly.
+Fixed non-working interactions in first person.
+Fixed stuck map panning in certain situations.
+Fixed third party mods combined with Split Vendetta resulting in ever-growing savegames with increasing numbers of stations.
+Fixed several causes of crashes.
+
+New Feature: Trade Rules enable improved control over station trade offers, station supply offers and sale of ships.
+Added links to "What is X4: Foundations?" video series to External Resources menu.
+Added option to import and export individual construction plans to share with community.
+Added information about original gamestart to Load and Save menus.
+Added missile storage capacity information to missile turrets in Encyclopedia.
+Added additional Object Information tab to Map menu.
+Added Mark All as Read option to Encyclopedia.
+Added icons to order options in Interact Menu.
+Added button in info tabs to focus objects in map.
+Added behaviour icons to Map legend.
+Added ship type icons to ship selection in Ship Configuration menu.
+Added faction abbreviations to Factions and Relations menu.
+Added option to select Trade Wares directly in Logical Station Overview
+Added Start Guidance option to Interact menu of data vaults.
+Added Fly To option to Interact menu of deployables and drops.
+Added details about mission duration and involved ships to Venture Results menu.
+Added match speed indicator to crosshair (default hotkey Shift+X).
+Added mouse over info in Object Info menus showing full commander name if name is truncated.
+Added error message when attempting to trade with stations that do not have docking facilities for current ship.
+Removed use of cargo drones for direct trade between nearby stations.
+Removed ability to install unsuitable equipment mods for certain types of shields, weapons, turrets and ships.
+Removed Explore order from list of available behaviours (Explore still available as general order).
+Removed irrelevant information for unmanned vessels from Object Info menus.
+Removed Opposing Faction line in mission briefings if it is empty.
+Removed duplicate inventory and station account management from Empire Overview.
+Removed ships and stations lists from Empire Overview.
+Removed hull and shield bars from wreck icons on map.
+Changed Explore order to end when all map hexes in its search radius have been discovered.
+Changed location of mission offer map filter to Think section.
+Improved names of Xenon weapons.
+Improved target selection for pirates.
+Improved turret accuracy against large targets.
+Improved weapon and turret accuracy against fast targets.
+Improved chance of AI pilots opening lockboxes when player not nearby.
+Improved efficiency of subordinate traders looking for trades.
+Improved behaviour of combat ships attempting to disable capital ship.
+Improved trade assignment speed if many subordinates try to trade same ware for their commander.
+Improved guidance during Paranid plot maze section.
+Improved "Work somewhere else for me" conversation to open map at employee's location instead of player's.
+Improved turret behaviour settings in station Loadout menus when all turrets are under construction.
+Improved visibility of target speed indicator in speed-bar against bright background elements.
+Improved order and designation for equipment slots in Ship and Station Build menus
+Improved presentation of player-owned ships on ventures in Property Owned menu.
+Improved balancing of Patrol missions by increasing enemy presence.
+Improved map performance in certain situations.
+Fixed Split wharves missing Pier.
+Fixed Fallen Families faction not building new ships.
+Fixed Duke's Haven sometimes not selling any, or only random, equipment/ships.
+Fixed Free Families granting police licences; players who have already purchased this licence will be reimbursed.
+Fixed stations built for NPC factions sometimes still using player account.
+Fixed stations not posting public buy offers for supply resources.
+Fixed stations operating as pure trade stations only using fraction of their funds for buying wares.
+Fixed stations sometimes creating trade offers with zero amounts for wares that are required for production.
+Fixed another case of Teladi Trade Stations not rebuilding modules.
+Fixed NPC stations disabling some of their production modules indefinitely under rare circumstances.
+Fixed crews of mining ships not gaining experience when player not nearby during mining operations.
+Fixed ships refusing explicitly given orders to trade with a station that is blacklisted.
+Fixed Recall Subordinates command not disarming drones.
+Fixed pirate ships not attacking NPC-owned ships that refuse to drop their cargo or comply with inspection protocols.
+Fixed ships assigned to Trade for Build Storage using station manager account instead of construction account.
+Fixed construction plan Shuffle option using connection modules that are not available.
+Fixed accidental friendly fire from turrets on player ship being treated as intentional.
+Fixed distress drones being launched prematurely.
+Fixed ships not doing damage when player not nearby if they were originally built with neither weapons nor turrets.
+Fixed player-owned capital ships not doing damage to non-hostile targets designated explicitly by player.
+Fixed ships sometimes repeatedly getting supplies at fleet auxiliary ships.
+Fixed NPC-owned ships paying for ammunition, deployables and drones that they already have when resupplying at player-owned equipment docks.
+Fixed some cases of ships not flying correctly around capital ships, specially when docking.
+Fixed ships not able to catch and dock on moving Raptor.
+Fixed station-based traders buying resources that their station isn't currently buying.
+Fixed Update Trade Offers command not visiting all known stations when multiple such orders are queued.
+Fixed Update Trade Offers ending immediately when new order is queued.
+Fixed queued-up Explore orders completing without having explored.
+Fixed Construction Vessels not clearing previous orders when assigned for building.
+Fixed Construction Vessels disengaging while modules are recycling before new build starts.
+Fixed non-capital ships refusing to attack military capital ships and some stations at relations between -20 and -25.
+Fixed automated trading ships ignoring travel blacklists when executing trades.
+Fixed subordinate traders not respecting trade rule that is denying specific factions.
+Fixed subordinate traders loading extra wares from their home base into storage even under conditions where they shouldn't.
+Fixed direct subordinates of player with assignment Attack not attacking unless themselves attacked.
+Fixed subordinates sometimes detaching themselves from their fleet.
+Fixed missing Trader assignment for trade ships that are subordinate to resupply ship.
+Fixed build orders on player-piloted ship not processing on docking at shipyard under some circumstances.
+Fixed free-flying police and recon ships sometimes getting stuck while scanning something.
+Fixed comm response by police when non-player ships are scanned and no illegal wares are found.
+Fixed asteroids accumulating when repeatedly saving and loading in same location.
+Fixed relative movement stopping when getting up from pilot seat.
+Fixed speed matching not turning off when changing target.
+Fixed aiming reaction time not using skills of pilot or manager.
+Fixed turrets sometimes not firing on valid targets.
+Fixed weapons firing into empty space if target is large object.
+Fixed turrets on ships repeatedly deploying and folding back when valid targets are in sight but not in range.
+Fixed autopilot aborting travel mode either too late or much too early.
+Fixed crew transfer resulting in unending escape pods in very rare circumstances.
+Fixed one case of crew transfer failing.
+Fixed one cause of traffic jams at gates.
+Fixed missing faction representatives in rare cases.
+Fixed pilots and crews on venturing ships losing morale due to inactivity.
+Fixed distance calculations for teleportation range limits.
+Fixed exploit allowing unlimited small ships to be stored.
+Fixed exploit allowing crew members to be cloned in certain situations.
+Fixed exploit allowing additional equipment that is not available at ship's current shipyard/wharf/equipment dock to be installed.
+Fixed being able to teleport to docked ships sent on venture.
+Fixed returned venture ships stranded in void after rebuilding venture dock.
+Fixed incorrect unpaid plot licences under certain circumstances.
+Fixed losing faction reputation from illegal station plots although licence was paid.
+Fixed not being able to autopilot to targets that are under construction.
+Fixed not being able to request docking at build storage when piloting capital ship.
+Fixed rare case of weapons firing under player control when player is no longer controlling ship.
+Fixed ship capacity mods not being taken into account when adding missiles, countermeasures and deployables to ships.
+Fixed deployables deployed via command Deploy at Position sometimes drifting past designated position.
+Fixed incorrect resource amounts for Paranid and Teladi M Mk2 shields.
+Fixed sector sunlight property not affecting Energy Cell production as intended.
+Fixed missing dock functionality on 4th arm of Split 4-Dock T Pier.
+Fixed missing XS ship docks on 3M6S luxury Dock Area.
+Fixed several hints getting stuck during Flight School tutorial.
+Fixed some missions not correctly displaying opposing faction in briefing.
+Fixed missing Court faction representative.
+Fixed Paranid plot mission A Small Errand getting stuck on objective Await: Further Instructions under specific circumstances.
+Fixed conversation option to pay credits in Paranid plot missions Unfolded Potential and An Ethical Challenge only appearing once.
+Fixed getaway ship not being recalled from internal storage if it was stored away during Split storyline at Hall of Judgement.
+Fixed missing prisoners at Hall of Judgement in Split story.
+Fixed plot not proceeding during cutscene to sabotage Scale Plate trade run.
+Fixed ships encountered in war subscription missions sometimes being invisible.
+Fixed Hatikvah story not always being re-offered when initial station was destroyed.
+Fixed Split story getting stuck in Suspicious Split mission if Passenger Ship was lost.
+Fixed mission conversation option for passenger to return to Passenger Ship in Suspicious Split Mission.
+Fixed End of Oppression/End of Terrorism missions getting stuck at payment stage if ship NPC contact was on was destroyed.
+Fixed game freeze during Suspicious Split mission if no stations belonging to given faction can be found.
+Fixed Split story getting stuck when tasked to place bombs on cargo drones during Report To Slave Trader 2 mission.
+Fixed Split Suspicious mission in Split story potentially missing guidance to character.
+Fixed End of Oppression mission in Split story accepting multiple payments from player and not progressing.
+Fixed End of Terrorism mission in Split story getting stuck if story character was on ship that was later destroyed.
+Fixed Path of Vengeance mission not completing in certain cases.
+Fixed discovering Jump Gate to Split space sometimes not triggering event cutscene.
+Fixed Split prisoner characters being duplicated when reassigned, which could lead to issues controlling objects.
+Fixed Paranid plot mission A Small Errand getting stuck if lockboxes are opened or destroyed before player enters sector.
+Fixed HQ Research Module not being named correctly in certain gamestarts.
+Fixed HQ Research Module being removed when loading construction plan.
+Fixed fleets not being sorted by fleet name in Object List and Property Owned menus.
+Fixed trade wares missing in Logical Station Overview if not currently stored.
+Fixed turret groups not being highlighted on ship in Ship Configuration menu under certain circumstances.
+Fixed inconsistent selection and highlight of shield and turret groups in Ship Modification menu.
+Fixed equipment mod category availability if no equipment is installed.
+Fixed rounding issues for equipment mod effects.
+Fixed station hull percentage not being shown in Info menu unless scan level was at least 80%.
+Fixed ship docks being listed as station dock modules in Encyclopedia.
+Fixed missing "+" on buttons in Ship Configuration and Player Information menus.
+Fixed Trade menu not being visible in certain situations.
+Fixed sector map sometimes being broken by deployables ending up in invalid positions.
+Fixed Arm/Disarm Turrets option in Interact menu being inconsistent when multiple ships are selected.
+Fixed some map controls not working after quick-loading with map open.
+Fixed Property Owned jumping to top row after returning from Object Information tab.
+Fixed missing pre-selection of certain equipment entries in Encyclopedia when opened from Ship Configuration menu.
+Fixed turret slots not available in Ship Configuration menu for certain ships when using controller.
+Fixed missing trade offer updates after changing station accounts, especially when paused.
+Fixed shuffle function in Station Build menu not updating list of modules.
+Fixed construction resources not being listed immediately after acquiring blueprint for player-owned shipyards.
+Fixed production/hour value for production modules not taking into account effect of production efficiency in Logical Station Overview.
+Fixed missing workforce information in Logical Station Overview under certain circumstances.
+Fixed incorrect trade rule or blacklist display/usage when assigned trade rule or blacklist is deleted.
+Fixed incorrect order lines on map when blacklists are set up.
+Fixed target monitor sometimes getting stuck during comms.
+Fixed fog of war sometimes not being rendered up to edge of sector.
+Fixed another case of stuck map panning in certain situations.
+Fixed object selection in map not changing object in Info menu if Info menu is not displayed.
+Fixed ware transfer options in Interact menu not requiring pilots.
+Fixed incorrect shadows for objects during construction.
+Fixed returning venture ships causing performance issues until sent away again.
+Fixed issue causing savegames to become larger with every save/load cycle.
+Fixed excessive sound volume in logo video.
+Fixed issue where sounds could be missing or delayed.
+Fixed further startup issues on Linux.
+Fixed game generating two crash dumps per crash instead of one.
+Fixed several causes of crashes.
+
+New Feature: Improved personnel management and crew transfer system.
+Added new upkeep missions.
+Added Hold Position override order as reaction to attack, to prevent ships from leaving area.
+Added option to put docked ships into internal storage.
+Added ability to enter space suit from docked capital ships.
+Added ability to define multiple sectors for player alerts.
+Added ticker notification for player-owned ships and stations coming under attack.
+Added logbook entry for player-owned stations being attacked.
+Added notification and logbook entry for player-owned stations getting destroyed.
+Added option to fire unassigned crew members in Crew Info menu.
+Added option to pause production in Logical Station Overview.
+Added information about station supply resources to Logical Station Overview.
+Added captions to columns in Logical Station Overview.
+Added ship type icons to blueprint trade and Fast Travel menus.
+Added ship code to ship entry in shopping list section of Ship Configuration menu.
+Added map filter options for enemy offers and gate connections.
+Added map background opacity option.
+Added new input bindings for diagonal steering and strafing.
+Added new input bindings for toggling auto-roll and aim assist options.
+Added option to select GPU in-game (requires restart).
+Removed ability of Cerberus to be equipped with mining lasers.
+Removed redundant Manage funds Interact menu option (use Information option instead).
+Removed non-functional options to change equipment while modifying/redesigning ships.
+Improved docking process to allow S and M sized ships to be docked in reverse direction.
+Improved Defence subordinate behaviour by reducing engagement range to 20km.
+Improved resource handling to move surplus resources for Drones and Ammo to cargo bay if station has use for them.
+Improved balancing of seminars (increased effectiveness, increased price, reduced quantity available).
+Improved subordinate traders by changing priority to favour demand over distance.
+Improved AutoMiners to make use of their factions' resource probes.
+Improved selection of sectors for order parameters in Behaviour menu.
+Improved wording of ship role assignments in Interact menu.
+Improved container magnet to also attract deactivated player-owned deployables.
+Improved cargo space allocation for workforce resources.
+Improved trade rule settings to keep current trade rule in effect when disabling Use Global/Station setting.
+Improved performance of Distribute Wares order in cases where blacklists result in it having significantly smaller operating range.
+Improved performance of mission guidance rendering on map.
+Fixed certain plot stations being recycled due to economic issues.
+Fixed Paranid plot mission A Small Errand getting stuck at objective Follow: Dead Drop Signal under specific late game circumstances.
+Fixed guidance wrongly jumping back from docking to scanning when creating new Signal Leaks on coffin ship in Split story mission To the Other Side.
+Fixed relation to Duke's Buccaneers getting locked again after having been unlocked in The Insurgence mission.
+Fixed not being able to talk to Split prisoners after they are assigned to you.
+Fixed blueprints being obtainable from data leaks on ships.
+Fixed rebuilt build modules remaining in an inoperable state if they were wrecked before existing hack expired.
+Fixed ships having lingering links to inoperable build modules resulting in them not being able to upgrade elsewhere.
+Fixed ships executing order Distribute Wares sometimes finding trades in blacklisted sectors.
+Fixed ships belonging to Godrealm of the Paranid in Split space persisting when they shouldn't.
+Fixed AI-controlled ships sometimes jumping ahead on path after going through accelerator or gate.
+Fixed certain ships not being able to dock manually without docking computer.
+Fixed mass traffic ships not flying correctly when returning to dock.
+Fixed ships getting very large number of Attack orders if they have Attack assignment and their commander engages many targets.
+Fixed promoted subordinates sometimes inheriting an assignment that they cannot fulfil.
+Fixed newly promoted subordinates inheriting their former commander's assignment but not updating their behaviour.
+Fixed boarding ships sometimes not launching pods.
+Fixed turrets in Attack my current target mode sometimes not shooting when targeting station.
+Fixed turrets on certain stations consistently missing capital ships.
+Fixed weapon aiming problems when shooter rotates or moves laterally to target.
+Fixed transport or build drones remaining unavailable under certain conditions.
+Fixed venture ship being lost due to destroyed/moved venture docks when free venture dock is available.
+Fixed defence modules not getting turrets on some stations where they should.
+Fixed Split storage modules missing shields and turrets.
+Fixed stuck trades between stations and build storage.
+Fixed ships getting stuck in docking bay.
+Fixed wrecks triggering player alerts.
+Fixed getting notifications and logbook entries for player-owned drones and laser towers getting destroyed.
+Fixed laser towers stuck in highways.
+Fixed asteroids accumulating when repeatedly saving and loading in same location (corrects previous fix).
+Fixed ships armed only with missile launchers sometimes not firing when attacking capital ships or stations.
+Fixed ships incorrectly staying assigned to docks, blocking them forever.
+Fixed pilots unable to control their ship after being promoted in certain cases.
+Fixed player looking at floor when speaking to crewman in back of current ship.
+Fixed inability to use spacesuit hatch after crew transfer pod arrived.
+Fixed exploit when selling crew at shipyard.
+Fixed crew not leaving the bridge after being sold at shipyard.
+Fixed player being charged when shipyard was unable to provide agreed crew.
+Fixed miners staying in completely depleted area when other areas with resources are available.
+Fixed police and reconnaissance ships investigating areas that once contained stations long after they have been destroyed.
+Fixed turrets not firing on stations under construction close to player.
+Fixed crew moving around on bridges more often than intended.
+Fixed pilots unable to control their ship after being promoted in certain cases.
+Fixed player getting notifications for player-owned XS ships getting destroyed.
+Fixed docking guidance lights leading to incorrect position when piloting capital ship.
+Fixed higher trade ranks and associated achievements being somewhat too difficult to achieve.
+Fixed higher fight ranks and associated achievements being much too difficult to achieve.
+Fixed fight rank not increasing when player destroys station modules.
+Fixed transporter doors on M ships not closing when NPCs use them.
+Fixed exploit allowing crew members to be cloned in certain situations.
+Fixed exploit involving selling ship equipment by transferring credits when build process is complete.
+Fixed exploit allowing licence and blueprint purchases to be made with insufficient funds.
+Fixed incorrectly scaled satellite ranges on map.
+Fixed discrepancies in information presented by boarding menu during operations.
+Fixed loadout statistics not taking equipment mods on grouped turrets into account.
+Fixed empty Import Construction Plans context menu under certain circumstances.
+Fixed Ship Configuration menu not working when accessed at resupply ship under certain circumstances.
+Fixed station storage display in Info menu if station storage is empty.
+Fixed all module categories being collapsed when editing module loadout in Station Build menu.
+Fixed Behaviour and Individual Instruction menus jumping to top row after scrolling on right side.
+Fixed sliders for order parameters in Behaviour menu not working correctly with mouse.
+Fixed overlapping texts for station accounts in Object Info menu.
+Fixed Loadout Info tab with high UI scale settings.
+Fixed missing guidance to target station in Split story End of Terrorism mission.
+Fixed missing Dal lines in Split story End of Oppression/Terrorism missions.
+Fixed incorrect mission guidance when objective is to dock at ship that is itself docked.
+Fixed cases of missing guidance to mission targets in space after taking control of ship.
+Fixed inventory trader not showing new stock levels if initial value was zero.
+Fixed dock request not aborting previous assignment when done from menu.
+Fixed role selection in Crew Info menu not working.
+Fixed Ship Overview menu for ships in construction.
+Fixed crew info context menu referring to manager when interacting with ship trader.
+Fixed subordinate and docked ship categories ignoring Object List and Property Owned sort settings.
+Fixed undo step not being added when adding new modules in station editor.
+Fixed button hints not being displayed for buttons on secondary controller or joystick.
+Fixed Crew and Loadout Info menus getting stuck when selecting a station in construction.
+Fixed setting buy/sell amount handling of trade ware back to automatic also turning off offers.
+Fixed renamed sectors showing their original name in Blacklist settings.
+Fixed Object Info not available for stations in construction.
+Fixed ship crew tab not updating when hiring bulk crew.
+Fixed Show Tooltips option having no effect until new session is started.
+Fixed selecting hologram on Split capital ship bridge resulting in player taking control of ship.
+Fixed multiple minor glitches related to mouse click handling, e.g. clicks on NPCs sometimes immediately selecting dialog menu option.
+Fixed visual hole in bridge on large Argon ships.
+Fixed positional lights on Argon defence tube appearing in wrong position in upgrade menu.
+Fixed small Mass Driver Mk1 and Mk2 appearing visually disconnected in upgrade menu.
+Fixed Split defence module details being disconnected in upgrade menu.
+Fixed floating and intersecting turrets on Teladi defence platform.
+Fixed slightly offset guns on Tuatara.
+Fixed gun on Jaguar not being properly visually attached to ship hull.
+Fixed shields on Wyvern not protecting surface elements.
+Fixed misplaced rear turrets and shield generator on Rattlesnake.
+Fixed wrongly rotated shield generator on Raptor.
+Fixed player logos on Raptor not being properly visible.
+Fixed Boso Ta head rotation.
+Fixed cause of graphical corruption on very busy zoomed-out map.
+Fixed UI animations sometimes appearing to be running at very low FPS.
+Fixed poor performance with loadout display in certain situations.
+Fixed excessive stuttering of engine sound especially on ships flying in formations.
+Fixed ships stopping as if hitting something very massive when colliding with XS laser towers.
+Fixed getting stuck in transporter room on Jaguar.
+Fixed several causes of crashes.
+
+Fixed faction representatives still being missing under certain circumstances.
+Fixed necessary briefing information being missing for certain missions in French and German localisations.
+Fixed missing guidance to passenger in Split story mission.
+Fixed success criteria in Sabotage mission.
+Fixed display corruption on 5600 XT graphics card with Glow enabled.
+Fixed several causes of game freezes and UI crashes.
+Fixed several causes of crashes.
+
+Fixed autosaves not cycling slots in Linux version.
+Fixed game not starting with certain hardware, OS and driver configurations.
+Fixed several causes of crashes.
+
+New Feature: Terraforming!
+New Feature: Coordinated Attack option for fleet commanders.
+New Feature: Volumetric fog makes space look even better.
+New Feature: Transaction Log for detailed breakdown of income and outgoings.
+New Feature: Message system for important communications from NPCs.
+New Feature: New Hostile relation status on map and HUD to indicate objects with which combat is likely.
+New Feature: Emergency eject.
+Added area damage to capital ship engines exhaust.
+Added possibility for crew to bail when under attack by NPCs.
+Added possibility for NPC factions to claim abandoned ships.
+Added available habitation capacity for race as workforce growth rate influence.
+Added Mark as Hostile option to Interact menu.
+Added Fire Authorisation Overrides providing control over whether ships should attack other factions.
+Added option to declare war on another faction.
+Added ability for player to set global policy and per-ship overrides governing response to attack.
+Added player faction to blacklist options.
+Added options to use faction and sector lists in Blacklists as whitelists.
+Added Assist assignment for subordinates of ships.
+Added Follow assignment for ships subordinate to other ships.
+Added trade assignments for mining ships.
+Added sync point management to Object Behaviour menu.
+Added option to have player-owned police collect or ignore crates dropped by apprehended smugglers rather than destroying them.
+Added option to lock paint modifications per ship excluding them from changes to default.
+Added setting for default ship weapon and turret behaviour.
+Added option to set preferred build method.
+Added construction plan shuffle option to player HQ.
+Added option to quickly reassemble equipment mods.
+Added ability to store crew information alongside saved loadouts (only applied when building new ships).
+Added ability to store weapon mode and ammo settings with saved loadouts and apply them in ship build/upgrade process.
+Added option to temporarily disable cover faction mode in Map.
+Added Set Guidance option on superhighway gates.
+Added Interact Menu option to Claim abandoned ships with player-owned ships.
+Added Interact menu option to add ships directly to your squad.
+Added change override order option to Interact menu.
+Added option to Interact menu to remove current Dock and Wait order and resume default behaviour.
+Added Interact menu option for sectors to show Encyclopedia entry.
+Added Rename Interact menu option for player-owned sectors.
+Added Escort missions.
+Added mission offers for factions which are at enemy relations to player but not actively hostile.
+Added helpful ship computer warnings to Paranid story maze mission.
+Added ability for Duke's Buccaneers and Duke's Tempest to rebuild HQ.
+Added guaranteed completion rewards for all guild mission chains.
+Added mixed cash and non-cash rewards to generic missions at higher faction ranks.
+Added paint mod rewards to first Split plot investment mission.
+Added paint mod rewards to Paranid plot and subsequent diplomatic investment missions.
+Added fleet and assignment info next to ship icon on Map.
+Added possibility to restore minimized Map with Quick Action Menu shortcut.
+Added search functionality to Encyclopedia.
+Added race information to Encyclopedia.
+Added contested sector information to Object Info menu and Encyclopedia.
+Added descriptions for licences and blueprints in faction representative menus.
+Added information about sectors and blacklists to Trade menu.
+Added shield recharge delay info to Encyclopedia.
+Added separate entries for large and medium turrets in Encyclopedia.
+Added sunlight information to sector Encyclopedia entries and Plot Management menu.
+Added estimated build time to station module information in Encyclopedia.
+Added mining resource information to Sector Info menu and Encyclopedia entries.
+Added separate choices for best engine and thruster for velocity-related properties in Encyclopedia.
+Added optimal workforce info to production modules in Encyclopedia and Station Build menu.
+Added product cycle time to production module Encyclopedia entries.
+Added research and associated resources to Logical Station Overview.
+Added information about workforce efficiency and changes to Logical Station Overview menu.
+Added sunlight information to Energy Cell production nodes in Logical Station Overview.
+Added shortcut to Research menu from HQ-related menus, e.g. Logical Station Overview.
+Added information about hacked build modules to Logical Station Overview and Ship Configuration menu.
+Added shortcuts from Logical Station Overview to create and edit trade rules.
+Added mouseover text for storage amounts in Logical Station Overview.
+Added Accessibility Settings in Options Menu.
+Added sub-categories to Blueprint Trade menu.
+Added option to sort Object List by relation.
+Added Logbook tab to Object Information menu.
+Added shortcuts in Object Information menu to show commander or subordinates of ships and stations on Map
+Added information about equipment compatibility to Ship and Station Configuration menus.
+Added search by maker race in module and equipment lists of Ship and Station Configuration menus.
+Added strafe and shield recharge data to Ship Configuration and Comparison menus.
+Added check for whether Builder is required in Station Build menu.
+Added summary of workforce info to Habitation Modules section in Station Build menu.
+Added plot licence price display while placing new station plot.
+Added separate inventory category for paint modifications.
+Added confirmation request when clearing logbook entries.
+Added mouseover text showing details for station account estimates in Info menu.
+Added tooltip for amount of reserved wares in ware exchange menu.
+Added placeholder image when no video is available in personnel overview.
+Added option to play message videos full-screen.
+Added links to Encyclopedia for important items in mission objectives.
+Added object ID code to upkeep mission list.
+Added additional support to navigate complex menus (e.g. map) with controller or keyboard.
+Added horizontal scrolling in flowcharts (Shift+Mouse Wheel).
+Added message when quick-save fails due to saving not being possible.
+Added optional warning about modified game client.
+Added visualisation for nearby Data or Signal Leaks, and for Long Range Scan charge state.
+Added audio and visual feedback when entering damaging area.
+Added shield impact effects.
+Improved combat simulation when player is not present.
+Improved Kha'ak presence and behaviour.
+Improved armament of Xenon stations.
+Improved laser tower targeting.
+Improved behaviour of pirates hacking station storage.
+Improved behaviour of subordinates in fleets with fleet auxiliary ships to prefer those ships for resupply.
+Improved capital ship subordinate behaviour to ignore subordinate group docked/launched state.
+Improved disengaging from combat in response to relations with target improving to non-hostile level.
+Improved mineral mining with non-capital ships when player is present.
+Improved mining AI to better balance travel distance and resource yields between local and remote sectors.
+Improved mining ship detection and handling of extensive mining operations depleting local areas completely.
+Improved behaviour of mining ships when using resource probes.
+Improved station-based miners working for stations that require more than one mineable ware.
+Improved player-owned drone behaviour so that inventory items are transferred directly to player when docking at player ship.
+Improved handling of ships sold by player to ensure their new owner recovers resources.
+Improved trade offer prioritisation when station does not have sufficient funds to pay for everything it needs.
+Improved shipyard generation to provide more dock capacity for medium ships (new game only).
+Improved behaviour of recon and police ships to reduce chances of investigating incidents away from densely-inhabited portions of sectors.
+Improved relative resource distribution for ship-building stations.
+Improved collision detection while in spacesuit.
+Improved capital ship inter-sector movement.
+Improved cases where ships preferred highways too much over direct route.
+Improved capital ship combat movement.
+Improved flight movement for ships docking on capital ships.
+Improved balancing of mining activities.
+Improved build plot price balancing by taking into account sector population.
+Improved balancing of relation penalty on destruction of drones and laser towers.
+Improved workforce balancing by increasing both impact of local population and effect on production.
+Improved workforce balancing by increasing both food requirements and efficiency bonus.
+Improved numbers of NPCs on docks to better reflect workforce levels and generally make things livelier.
+Improved effect of crew skill and resource probe usage on mining efficiency.
+Improved output of stations producing workforce resources to counter universal food shortage.
+Improved balancing of mining resource yields and replenishment rates.
+Improved timing of Fallen Families raider activation.
+Improved balancing of Unfolded Potential and An Ethical Challenge missions by reducing requirements for crystals and sedatives.
+Improved balancing of The Mediators, The Insurgence, Fires of Fate and Declaration of Curbs missions by reducing fleet delivery requirements and power of enemy fleets.
+Improved clarity of conversation tooltip about requirements to start Paranid plot.
+Improved Hatikvah story mission to scan data leak at Scale Plate station.
+Improved diversity of paint mod rewards between guild subscriptions.
+Improved reputation rewards for Escalation path of Paranid story diplomatic missions.
+Improved survivability of Duke's Haven by preventing Godrealm and Holy Order from invading until Gathering Storm mission is complete.
+Improved pacing of Lasting Vengeance mission by automatically removing Nav Beacons after scan.
+Improved Deploy Resource Probe upkeep mission handling.
+Improved communications scenes for NPCs by adding their real environment.
+Improved design of New Game menu.
+improved Extensions menu with more details and added toggle in extension list.
+Improved Options menu display when changing subscription status of workshop extensions in Steam while game is running.
+Improved Account Management menu.
+Improved order of ship entries in Blueprint Trade menu.
+Improved display of mission trade offers in trade context menu
+Improved news notifications about faction activity to filter by local area unless war subscriptions are in place.
+Improved lists in menus of queued ships under construction to be more concise.
+Improved scrolling of multi-line texts in menus with controller and keyboard.
+Improved display of production cycle information in Encyclopedia ware entries.
+Improved warnings about missing storage space in Logical Station Overview.
+Improved tooltip when trying to reassign for busy ship traders.
+Improved layout of resource needs in Station Build menu.
+Improved smoothness when panning, rotating or scrolling busy Map displays.
+Improved station editor to allow more zoom-in.
+Improved Mission Offer and Manager menus to only show alternative guidance if mission briefing is visible.
+Improved mission icons.
+Improved character lighting in communications scenes.
+Improved external camera behaviour when target is destroyed.
+Improved appearance of asteroid fields by fading in objects.
+Improved volume and variety of Trader's Corner music.
+Changed L gas miners to require mining drones for effective mining.
+Changed guidance and autopilot to no longer use unknown gates or superhighways.
+Changed order of tabs in Player Information menu.
+Removed option to drop cargo from units
+Removed incorrect interact menu options for drones.
+Removed laser towers from ship categories in Encyclopedia.
+Removed Think map filter category and moved those entries to Other category.
+Fixed ships warping when exiting local highway while player is inside same highway.
+Fixed S/M ships not able to approach and dock properly on enclosed docking bays.
+Fixed ships sometimes not being able to dock on capital ships.
+Fixed ships holding up docks for long periods of time.
+Fixed AI orders and player teleport sometimes not considering sector to be in range.
+Fixed AI ships sometimes taking longer route than they should.
+Fixed Attack subordinates sometimes not attacking their commander's target.
+Fixed attacking combat ships halting or fleeing in response to police ordering them to halt.
+Fixed boarding ships launching extra empty boarding pods if they are already ready to launch at start of operation.
+Fixed skilled marines causing more damage when claiming than marines with less skill.
+Fixed changes to defence drone modes not registering when defence drones are disarmed.
+Fixed claiming of abandoned ships with marines.
+Fixed efficiency bonus from workforce not being applied if productions were not running during shift change.
+Fixed idling ships sometimes wandering off.
+Fixed ships retrieved from storage sometimes being rotated by 180 degrees.
+Fixed miners subordinate to stations in hostile sectors refusing to work in their commanders' sectors.
+Fixed subordinates set to supply fleet not getting appropriate assignment if set via order queue menu.
+Fixed turrets on ship that player is personally flying firing on wrecks.
+Fixed ware transfer sometimes stalling when involving one ship docked at another.
+Fixed weapons sometimes recovering from overheating too late.
+Fixed cases of many NPC subordinate ships being ordered at shipyards but never assigned to commander.
+Fixed ship traders getting stuck indefinitely attempting to build costly ships.
+Fixed software upgrades on resupply ships not starting.
+Fixed subordinates with assignment Mimic Behaviour assigned to free traders not trading even if requirements have been fulfilled.
+Fixed turrets sometimes aiming at empty space when attacking large target.
+Fixed Teladi Trading Stations not being equipped with shields or turrets.
+Fixed trade loops failing to trade with station build storage.
+Fixed ships with destroyed engines continuing to move.
+Fixed inability to scan ships multiple times.
+Fixed another case of subordinates attacking ships beyond pursuit range.
+Fixed customs searches on player-owned stations in player-owned sectors ordering player-owned ships to drop illegal wares.
+Fixed police ships sometimes policing sectors where they are not police.
+Fixed changing ship assignments not changing their default behaviour appropriately.
+Fixed ongoing research still allocating space for resources.
+Fixed aim prediction for weapons on rotating objects.
+Fixed turret aiming against large targets.
+Fixed autopilot sometimes flying back into jumpgate it just exited.
+Fixed defence drones escorting ship not responding to attacks on their fleets.
+Fixed subordinates temporarily taken control over by player sometimes failing to reintegrate into their old command hierarchy.
+Fixed player-owned stations repeatedly transferring small amounts to player's account if last player-initiated cash transfer was much less than required operating budget.
+Fixed traders refusing to trade with blacklisted objects after having been given explicit trade order.
+Fixed automated traders trading with clients after they have moved to blacklisted sector.
+Fixed station-based traders restricting baskets to shortage wares that they are not authorised to trade.
+Fixed construction vessels remaining in unsafe locations when expanding station plots.
+Fixed construction vessels not disengaging when becoming enemy with assigned station.
+Fixed stations continuing to fire on targets that change ownership to non-hostile faction.
+Fixed ongoing research still allocating space for resources.
+Fixed NPC getting stuck in tool pickup loop.
+Fixed objects with hull values over 100%.
+Fixed subordinates sometimes randomly going hostile against their commanders' former targets.
+Fixed incorrect auto-aim when rolling while pitched up or down.
+Fixed missing scanner on Split space suits.
+Fixed Split L Dumbfire Turrets not firing.
+Fixed player ship becoming uncontrollable when pressing undock key (Shift+D) while already undocking.
+Fixed attacking ships that are not authorised to engage other targets engaging them anyway.
+Fixed half of ships in local highway being killed when player leaves.
+Fixed launched defence drones pursuing targets beyond engagement range.
+Fixed subordinates whose commanders are in blacklisted sectors not operating in their commanders' sectors.
+Fixed stations not accounting for defence drones when dealing damage while player is not present.
+Fixed stations with missile turrets on automatic supply not requesting missile resources.
+Fixed player-owned auto-miners and auto-traders finding sectors that are not yet known to player.
+Fixed additional gas mining drones on large gas miners not contributing to mining speed.
+Fixed trade offers being sometimes shown as hostile when standing on another faction's property.
+Fixed trade subscription not being offered when teleporting to station where you receive promotion.
+Fixed station producing required building materials not being able to transfer them to build storage if it has insufficient funds.
+Fixed stations automatically reassigning mining ships to mine for them.
+Fixed assigning employee as Individual Trainee not working.
+Fixed being able to walk through walls by moving very slowly.
+Fixed heat build-up of beam weapons.
+Fixed subordinates sometimes not clearing reservations on reassignment.
+Fixed mining lasers dealing excessive damage against enemies when player not present.
+Fixed ships without weapons or turrets being able to mine asteroids.
+Fixed ships not consuming countermeasures when player not present.
+Fixed stations not using their turrets under certain circumstances.
+Fixed remotely viewed objects not shooting under certain circumstances.
+Fixed excessive workforce reduction when insufficient resources are available.
+Fixed player ship getting pushed when getting up while flying relative to moving object.
+Fixed player spacesuit getting pushed when moving away from player ship while flying relative to moving object.
+Fixed savegames where large number of factories have been built by factions for no reason.
+Fixed ships with automated default behaviours sometimes ignoring certain sectors.
+Fixed NPCs appearing on player owned stations generally being all of one race.
+Fixed fleet commanders using their piloting skill rather than their combined skill for determining validity of formation shapes.
+Fixed subordinates assigned to commanders that have bailed becoming completely unresponsive.
+Fixed range calculation issues with capital ships attacking stations.
+Fixed ships sent to be recycled sometimes blocking dock.
+Fixed possibility to queue multiple repair orders for same ship.
+Fixed not being able to personally claim ownerless capital ships.
+Fixed lockboxes accumulating when saving and loading repeatedly.
+Fixed HQ Research Module sometimes being incorrectly named.
+Fixed non-capital mineral mining ships with mining turrets but no forward-mounted mining lasers failing to mine when player not present.
+Fixed manually setting storage allocation for products/intermediates removing automatic sell offers.
+Fixed Kha'ak rebuilding station modules excessively quickly.
+Fixed fleet auxiliary ships becoming unresponsive when two of them are added to fleet while distant from one another.
+Fixed saves with missing HQ science labs after building from plan (root cause may not be fixed).
+Fixed mission trade offers not being shown if player has no trade offer subscription at relevant station.
+Fixed weapon aim indicators not darkening under certain conditions when target is out of range.
+Fixed newly installed weapon not being displayed in weapon panel when upgrading currently controlled ship.
+Fixed broken weapon panel when removing weapon from currently controlled ship.
+Fixed icons on Map shaking because of unintentional damage.
+Fixed station geometry on Map still including certain ships even after they have undocked.
+Fixed some system borders appearing too bright on Map.
+Fixed incorrect error message about missing trade information in Trade menu.
+Fixed ETAs for ware reservations by player ships.
+Fixed subordinates with assignment Attack failing to attack fleet target if assigned to fleet in different sector that is already attacking.
+Fixed traders subordinate to fleet auxiliary ships searching for trades from their current sector rather than that of their commander.
+Fixed mining ships with low-skilled crews picking up empty asteroid chunks.
+Fixed player ship warping when flying relative to object with dock permission as it enters gate.
+Fixed drones or ammunition sometimes not being constructed from available cargo while there are trade deals to buy at least one relevant ware.
+Fixed Black Marketeers sometimes not having correct race for their faction.
+Fixed faction representatives not being respawned after loading certain older savegames.
+Fixed race distribution of characters on stations.
+Fixed crew on ships sometimes not properly switching to new owner.
+Fixed NPC pilots sometimes sitting on player's lap.
+Fixed missing trade corners on trading stations which also have faction representative.
+Fixed NPCs looking up or down when talking to player.
+Fixed characters sometimes standing inside their terminals.
+Fixed Split character sometimes being placed in cockpit floor in Fires of Defeat gamestart.
+Fixed HQ manager in Accomplished Scientist gamestart sometimes being invisible Kha'ak or Xenon character.
+Fixed incorrect hints in Flight School when playing with configuration of multiple joysticks or controllers.
+Fixed success criteria in sabotage mission.
+Fixed already opened core-shield switching to closed when loading savegame in Paranid storyline.
+Fixed game freezing if fulfilling mission by delivering fleet that is directly subordinate to player.
+Fixed missing guidance to mission character in End of Terrorism/Oppression missions under certain circumstances.
+Fixed NPC ships avoiding player during payment objective of End of Oppression/Terrorism Split story mission.
+Fixed multiple crew delivery missions reacting to delivering NPC.
+Fixed Split Vs Argon mission referencing Paranid ship types.
+Fixed player becoming member of receiving faction when handing over ship while in pilot seat.
+Fixed Deliver Crew mission checking incorrect skills and sometimes leading to mission not completing.
+Fixed Yu t'Knk in Split storyline providing unlimited number of spacesuit bombs.
+Fixed Split Story mission Zyarth's Coffin getting stuck after completing delivery.
+Fixed issue with Split-specific Fleet War Mission requesting non-existent ship equipment.
+Fixed Kha'ak stations offering signal leak missions.
+Fixed Escape Plan mission sometimes stalling if left for too long.
+Fixed escape pods not launching in Hatikvah Breakdown mission.
+Fixed Split plot not progressing when Passenger gets lost during Rebellious Thralls mission.
+Fixed missing guidance to NPC during Suspicious Split mission in Split story.
+Fixed HQ story signal leak not appearing during specific phase of Hatikvah story.
+Fixed attacking drones in Hatikvah story not turning hostile to player as intended.
+Fixed multiple repair satellite missions in trade subscription not progressing.
+Fixed By Invitation Only mission to speak to Dal Busta sometimes not having guidance.
+Fixed upkeep mission to assign construction vessel not appearing for newly planned stations.
+Fixed mission NPC not respawning in Split End of Terrorism and End of Oppression story missions.
+Fixed another case of Escape Plan mission sometimes stalling.
+Fixed A Small Errand mission getting stuck if all lockboxes are opened in quick succession.
+Fixed Rebellious Thralls mission in Split story getting stuck after hijacked ship surrendered.
+Fixed crew delivery missions not aborting automatically if destination station is destroyed
+Fixed Duke's Tempest not attempting to claim sectors during invasions.
+Fixed Retrieve Inventory mission potentially aborting when mission item is picked up.
+Fixed Supreme Interior Design and A Fearsome Flagship missions sometimes getting stuck despite all wares having been delivered.
+Fixed Abort Mission button wrongly appearing enabled under certain circumstances.
+Fixed Ships in Construction entries showing 1:00 as time left when completed.
+Fixed broken safe deposit storage menu when closing it under certain circumstances.
+Fixed cut-off Ship Interactions menu under certain circumstances.
+Fixed cut-off encyclopedia descriptions.
+Fixed highlight visitor setting turning off in certain situations.
+Fixed licence icon in ship selection of Ship Build menu disappearing sometimes.
+Fixed misplaced sorting arrow in Load Game menu.
+Fixed missing icons in certain menus with specific resolution, UI scale and language combinations.
+Fixed overlapping texts in player info box in upper left corner of some menus.
+Fixed menu crash in Crew Information menu in certain situations.
+Fixed missing warning when trying to trade with station that only has capital ship build modules.
+Fixed mission guidance on Map not showing multiple objectives correctly.
+Fixed order lines being shown on Map even if object icon is filtered out.
+Fixed incorrect sorting of Map objects by name in certain cases.
+Fixed wrongly aligned background elements in expanded flow-chart nodes.
+Fixed rounding issues when truncating text.
+Fixed rotation input on station plot placement map.
+Fixed access to Ship Overview menu for laser towers and drones.
+Fixed stuck Ship Configuration menu when deleting custom loadout.
+Fixed stuck Map after closing context menus.
+Fixed excessively large selection area for order and guidance lines when using mouse on Map.
+Fixed paint modification encyclopedia entries being wrongly re-added to inventory ware category.
+Fixed ware exchange option being available for ships with which docking is not possible.
+Fixed deceptive trade offer prices and amounts if trade offer information is out of date.
+Fixed NPCs appearing as full-screen background of Map menu under certain circumstances.
+Fixed scaling for New Default Behaviour context menu.
+Fixed visible sector description text changing under certain circumstances.
+Fixed resource probes showing zero yield in locations with resources.
+Fixed some areas on map being coloured as though they contain mineral resources when this is not the case.
+Fixed logical station overview incorrectly listing ware reservations that do not influence production or trade offers.
+Fixed not being able to remove buy offers for products under certain circumstances.
+Fixed Bling Bling achievement being granted by looking at Encyclopedia.
+Fixed station module and ship blueprints being available without any reputation restriction.
+Fixed excessive credits sometimes being transferred to player when cancelling upgrade.
+Fixed weapon cooldown delay re-starting when another weapon finishes cooling down.
+Fixed ships with turrets that are in storage doing damage when player is not present.
+Fixed gates and superhighways sometimes being shown outside sectors on Map.
+Fixed cut-off text in Encyclopedia descriptions under certain circumstances.
+Fixed Sector Info menu not being displayed correctly under certain circumstances.
+Fixed incorrect display of settings in Extensions menus after restoring defaults.
+Fixed inability to give piloting or management seminars to pilots or managers via Personnel Management Menu.
+Fixed inability to give piloting seminars to player's relief pilot.
+Fixed logbook entries being added for NPC ships bailing following attacks by other NPCs.
+Fixed inconsistent faction relation display when using cover.
+Fixed encyclopedia showing incorrect Sustained Weapon Output for beam weapons.
+Fixed doubled group entries when assigning ships under certain circumstances.
+Fixed ship constructions in Logical Station Overview showing negative progress when finished.
+Fixed map filters not being applied correctly after selecting plot in Manage Plots menu.
+Fixed number of queued orders being visible on ships with insufficient revealed info.
+Fixed station modules sometimes listed twice in Object List or Property Owned.
+Fixed interrupted text input when using HOTAS or similar input methods.
+Fixed being dragged into wall by cockpit hatch in Chimera and Asp.
+Fixed Theseus being able to equip mining lasers.
+Fixed floating geometry on graphene production module.
+Fixed several misaligned surface elements.
+Fixed unsuitable shop areas appearing on certain stations.
+Fixed missing doors for spacesuit docks on station dock areas.
+Fixed redundant info text on radar for selected target using certain screen aspect ratios.
+Fixed graphical corruption of guidance on Map.
+Fixed inability to interact in first person mode in certain savegames.
+Fixed getting stuck in floor when in docked capital ship.
+Fixed being able to fall off dock area of Zeus.
+Fixed missing visual element on hackable console in security office.
+Fixed parts of venture room vanishing depending on view angle.
+Fixed flipped player logo on Asp.
+Fixed player logo on Boa not being completely visible.
+Fixed hole in Pegasus cockpit roof.
+Fixed incorrect colour on Paranid mass driver beam.
+Fixed rolling character eyes.
+Fixed Alert menu not being shown under certain circumstances.
+Fixed cases where targeting gate displayed triangular target element instead of rectangular one.
+Fixed cases of untargetable objects in first-person mode in certain cases (e.g. pilot chairs on newly constructed ships).
+Fixed faction relation bar in target monitor not updating.
+Fixed duplicate nebula rendering during certain conversations.
+Fixed engine boost effect not being visually attached to medium sized engines.
+Fixed missing barrel rotation on Bolt Repeater and Neutron Gatling.
+Fixed Kha'ak turret muzzle flash not being visually connected to barrel.
+Fixed message cutscenes continuing to play in background when selecting another message or menu tab.
+Fixed Game Paused not being visible during Game Over.
+Fixed flickering objects during Game Over.
+Fixed certain sounds being played using incorrect volume setting.
+Fixed Tobii devices not being detected with recent Tobii drivers.
+Fixed several causes of performance issues.
+Fixed several causes of crashes.
+
+Fixed sometimes not entering superhighways during travel mode.
+Fixed not being able to claim abandoned Rapier.
+Fixed Solborn Militia Outpost not respawning when destroyed.
+Fixed ship Silverback in Defenders of Sol mission getting stuck.
+Fixed Wartime Economics mission getting stuck in dialog cutscene when entering Savage Spur II with map open.
+Fixed ship delivery objective in Towards Distant Shores mission failing unintentionally.
+Fixed rescue ship in Terran gamestart Displaced mission sometimes being very far away.
+Fixed missing Argon dock blueprint for player during Displaced mission in Terran gamestarts.
+Fixed ship to escort in Escape Plan mission sometimes not moving to station.
+Fixed missions sometimes not continuing when saved and loaded during dialogue.
+Fixed Wartime Economics mission getting stuck if last Xenon flees instead of being destroyed.
+Fixed missing Preferred Build Method option for resupply ships.
+Fixed order icons in Object List and Property Owned menus not showing correct order when using Repeat Orders
+Fixed wrong station construction state in Station Build menu under certain circumstances.
+Fixed Encyclopedia errors if no engines are known.
+Fixed several causes of crashes.
+
+Fixed certain ship models not being claimable in person.
+Fixed population information from terraforming getting lost when loading savegame.
+Fixed missing description for Sealed Vacuum Tubes.
+Fixed Terran Fleet Delivery Missions requesting impossible ship setup.
+Fixed Defenders of Sol mission getting stuck on Approach: Erratic Miner objective under specific circumstances.
+Fixed Final Debrief mission issues with mission relevant characters potentially dying too soon.
+Fixed War of Intervention mission guidance breaking under specific circumstances.
+Fixed End of Terrorism objective pointing to station instead of signal leaks.
+Fixed various issues in Covert Operations mission.
+Fixed War of Intervention mission not containing reward.
+Fixed A Pirate's Trail mission getting stuck if enemy ships are defeated before player arrives.
+Fixed data leaks sometimes spawning in centre of station during Pioneer gamestart mission.
+Fixed target ship in Mutually Assured Destruction mission staying invincible after getting attacked by player.
+Fixed Astronauts, Champions, Truth Seekers mission getting stuck if hidden ship is captured before objective is set.
+Fixed objective guidance sometimes not appearing for The Meeting mission.
+Fixed player getting stuck inside Silverback during Defenders of Sol mission.
+Fixed Operation Hyena not progressing when player already owns station in specified Argon space.
+Fixed Wartime Economics mission getting stuck in Savage Spur II under specific circumstances.
+Fixed cases of Second Assistant mission getting stuck when placing Nav Beacons in hazardous region.
+Fixed story getting stuck when escaping out of conversations with Rick Feynman during Double Assistant mission.
+Fixed What is Best in Life achievement not being unlocked for players who completed Make War not Peace mission during beta.
+Fixed sector trade offer graph in Encyclopedia showing Sell instead of Buy for buy offers in mouse-over texts.
+Fixed broken shopping list in Ship Configuration menu after returning from Encyclopedia.
+Fixed broken mouse picking on Map after setting trade ware filter.
+Fixed Energy Cell production module efficiency claiming sunlight effect as workforce.
+Fixed ships of wrong size offered when requesting ships at ship consoles.
+Fixed covered ships not showing up in Undock menu.
+Fixed Crew Transfer menu for player-owned shipyards.
+Fixed dropdown selections appearing to reset to initial value after scrolling.
+Fixed main weapon on Asgard being destroyed.
+Fixed Terran medium turrets vanishing when destroyed.
+Fixed freeze when using Go To Ship on ship belonging to another faction that is docked at object also belonging to another faction.
+Fixed freeze when doing Long Range Scan near extremely complex station.
+Fixed several causes of crashes.
+
+Improved collision detection, especially at high speeds.
+Fixed re-tasked NPC traders sometimes holding on to reservations for trades they are not going to complete.
+Fixed not seeing assigned trainees on HQ after relocating it to sector without training capabilities.
+Fixed player being able to easily board ships they've just sold.
+Fixed missile launchers not being available to Terran and Pioneer factions.
+Fixed license requirements for missile launchers and turrets.
+Fixed automatic buy/sell threshold calculation for intermediate wares with manual storage allocation.
+Fixed blacklist entries for certain sectors not being loaded after saving.
+Fixed incorrect Torus airlock state if players teleports unexpectedly.
+Fixed cases of mission ship being stuck in hazardous region during Second Assistant mission.
+Fixed target ship in Mutually Assured Destruction mission stopping for no apparent reason.
+Fixed Advanced Satellite deployment not registering in The Meeting story mission.
+Fixed From the Ashes mission not accepting Terran ship fabrication modules.
+Fixed Save Them From Themselves mission not ending if important character is no longer available when objective is completed.
+Fixed Hatikvah mission getting stuck when interrupting Dal during Teladi meeting.
+Fixed Operation Hyena Station construction failing to complete.
+Fixed Falx asking for impossible equipment loadout in Terran Deliver Fleet missions.
+Fixed Oberth not accepting antimatter cells in specific circumstances.
+Fixed Final Debrief not continuing when defending Saman from Pirates under specific circumstances.
+Fixed issues with Undercover Trader in Zyarth's Coffin story mission.
+Fixed NPC in Treacherous Shallows mission getting killed if station is destroyed before player starts conversation.
+Fixed Moreya gained in Astronauts, Champions, Truth Seekers mission remaining locked from pilot assignment after end of plot.
+Fixed missing reputation reward for A Heart for Pirates mission.
+Fixed encyclopedia entry selection when opening sector entries.
+Fixed targeting capital ships not unlocking weapon and thruster information in Encyclopedia.
+Fixed missing option to resume production if production module is marked for recycling or is hacked.
+Fixed Yaki station sometimes having no icon.
+Fixed several causes of crashes.
+
+New Feature: Custom game starts.
+Added Deliver Fleet mission variants that ask for specific ship type but let player choose exact ship and equipment.
+Added two new terraforming projects to directly increase or reduce air pressure.
+Added storage information to active terraforming projects.
+Added player access to some paint mods belonging to allied factions.
+Added more ship system indicators to crosshairs, including flight assist, aim assist and others.
+Added ware reservation information to trade menu.
+Added option to cancel ware reservations at player-owned stations.
+Added option to assign ships directly to subordinate group in Object List and Property Owned menus.
+Added status info about insufficient funds to Account node in Logical Station Overview.
+Added ware volume info to storage nodes in Logical Station Overview
+Added Show Upkeep Missions option to Interact menu.
+Added mission ship loadouts to Ship Configuration menu.
+Added option to reset station module rotation in Station Build menu.
+Added HQ account info to Research menu.
+Added mass crew transfer for group trainees with player HQ.
+Added module set filters to Station Build menu.
+Added station module context menu to module list in Station Build menu.
+Added option to hide module plan and loadout details in Station Build menu.
+Added settings to Station Build menu.
+Added option to prevent Tobii head-tracking hardware from being initialised using "-forcehmd disable" command line parameter.
+Added Polish localisation.
+Improved Build Station and Deliver Fleet mission rewards to give return on investment instead of flat reward.
+Improved Deliver Fleet mission variants to ask for varying loadouts.
+Improved consistency of Xenon fleet strength in Mutually Assured Destruction mission.
+Improved Reflective Cloud Particles and Black Dust terraforming projects by making them repeatable.
+Improved Emergency Eject feature.
+Improved travel speed of formations.
+Improved behaviour of station-based mining ships working for stations that require multiple resources.
+Improved behaviour of police ships to sometimes allow player-owned objects to skip inspection if relations with police faction are good enough.
+Improved behaviour of ships attacking targets distant enough to require use of travel mode.
+Improved station-based traders to prevent them prioritising resources that are produced by their station even when those resources are in shortage.
+Improved selling behaviour of station-based miners assigned to stations that require more than one mineable resource.
+Improved faction logic to prevent construction of excessive numbers of stations.
+Improved how factions deal with ware shortages and make decisions about new production.
+Improved hazardous regions to also work when player is not nearby.
+Improved AI pathing to fly around hazardous regions where possible.
+Improved flight pathing for small ships docking at Tokyo.
+Improved range and force of container magnet for M, L and XL ships.
+Improved scanning movement of recon ships and resource scouts.
+Improved balancing of relation penalty for destroying stations.
+Improved balancing of price and resource cost for advanced satellites.
+Improved low attention combat involving multiple capital ships.
+Improved choice of positioning for newly constructed NPC stations.
+Improved docking of non-capital ships.
+Improved undocking movement of S and M ships to look smoother.
+Improved movement of capital ships clearing jump gates after transition.
+Improved capital ship combat movement when pursuing fleeing targets.
+Improved behaviour of deep-level subordinates whose top-level commander is carrier.
+Improved transfer of products from station to own build storage.
+Improved resource probe detection range.
+Improved laser tower response to attacks.
+Improved Collect Drop(s) orders to also pick up ammunition containers.
+Improved launch of defence drones set to Attack my Current Target.
+Improved target acquisition for defence drones when switching to Attack all Enemies mode.
+Improved auto aim against certain objects, especially data leaks.
+Improved speed display in crosshairs.
+Improved Gravidar update rate.
+Improved visibility of save-related messages.
+Improved visibility of turrets in scan mode.
+Improved visibility of hull and shield bars on Map against colourful backgrounds.
+Improved target icons for squad leaders.
+Improved Map by allowing it to remember its previous state when opened again.
+Improved readability of filtered wares in remaining cargo list in Map menu.
+Improved info box of selected object on Map by making it transparent when cursor is over it.
+Improved behaviour of Map info boxes for ships and stations.
+Improved Map display of information gathered by resource probes.
+Improved Map icons to display related upkeep missions on mouseover.
+Improved Map behaviour to show highlighted wares even if filters would otherwise exclude them.
+Improved legibility of info box of selected object on Map by making it much more opaque.
+Improved handling of icons representing subordinates to fade out early when zooming out on Map.
+Improved display of player-owned and allied ships on Map to show icon and info text for current order.
+Improved blueprint lists in Encyclopedia.
+Improved workforce information in Logical Station Overview.
+Improved Station Editor by showing actual sector background and relevant objects for context.
+Improved Station Editor by disabling connection snapping while pressing Control.
+Improved Station Editor by allowing module rotation around all axes.
+Improved Station Build menu by adding option to remove module sequences.
+Improved visibility of station modules in Station Build menu.
+Improved zoom sensitivity when using mouse wheel in Station Build menu.
+Improved snapping to connections in Station Build menu.
+Improved menu layouts for Hire and Reassign crew.
+Improved interface for selecting sector order parameters.
+Improved manual trade offer settings to allow buy amount that is higher than sell amount.
+Improved Ship Configuration menu layout if no engines are available.
+Improved Ship Behaviour by adding error messages for failed orders.
+Improved loadout editor for station modules by showing other modules in construction plan for context.
+Improved Confirm/Cancel buttons for ware filter selection to be always visible.
+Improved New Game and Extension menus by adding more information.
+Improved variety of factions seen on dock areas.
+Improved appearance of Argon characters.
+Improved lighting on Argon L bridge.
+Improved asset pre-loading and streaming on GPUs with high memory capacity.
+Improved handling of out-of-GPU-memory conditions.
+Changed default setting for Alerts in Map to Low for new players
+Changed size difference for fleet leader icons from 50% to 25% larger than other objects.
+Removed resource yield requirement from mining ship upkeep missions.
+Removed ability to drag order lines away from inter-sector connections as they often happened accidentally.
+Removed XS dock capacity from Docked Ships info on map.
+Removed visualisation of module connections in Build Menu while not dragging module.
+Fixed relations in Terran gamestart.
+Fixed advanced gamestarts not being unlocked when playing certain other gamestarts.
+Fixed HQ warping to wrong position during first encounter.
+Fixed Boso Ta dialog not playing when browsing research menu.
+Fixed Terran and Pioneer introduction missions to HQ being stalled by research ship being destroyed.
+Fixed Hatikvah story sometimes getting stuck if dialogs are interrupted.
+Fixed player not being able to take control of freighter because it was put into internal storage during Hatikvah story.
+Fixed data vault mission not being completable with Cradle of Humanity expansion active.
+Fixed rare situation in which Escape Plan mission cannot be completed.
+Fixed players getting trapped in Boneyard during Tax Evasion 101 Split story mission.
+Fixed Rebellious Thralls Split story mission being stuck if player has bad faction relations towards FRF when asked to dock at Slave Trader 3.
+Fixed Rebellious Thralls Split story mission being stuck at undefined Scan guidance.
+Fixed Coffin Ship sometimes not undocking during To the Other Side mission in Split Story.
+Fixed Fires of Fate mission in Split story not progressing when sabotaging Ravenous Wight.
+Fixed objects in Abandoned Asteroid Base in Astronauts, Champions, Truth Seekers mission disappearing while player is absent.
+Fixed Astronauts, Champions, Truth Seekers mission getting stuck if conversation with Ellipsis Trouble is started before story dialog could finish.
+Fixed indestructible Sweet Jack ship remaining after Covert Operations storyline is completed.
+Fixed Covert Operations story stalling if Antigone does not own any system.
+Fixed A Matter of Respect mission getting stuck if Helianthus tries to launch too many drones at once.
+Fixed Torus switch riddle to reset all switches on leaving sector.
+Fixed Torus switch riddle not behaving correctly if switches are repaired/damaged too quickly.
+Fixed Operation Smoke and Mirrors mission not activating properly under certain circumstances.
+Fixed A Heart for Pirates mission not getting removed from Mission Manager when aborted by player.
+Fixed The Smoking Gun mission not triggering if Amplifier Station is destroyed too quickly.
+Fixed Defenders of Sol mission getting stuck if Silverback is destroyed before player arrives at rally point.
+Fixed Patrol Missions pausing when player docks on player-owned ships.
+Fixed The Mediators and The Insurgence missions accepting ships delivered with minimal equipment.
+Fixed Build Station missions that ask for Administrative Centre not enforcing that requirement.
+Fixed certain mission stations remaining invulnerable in case of failed Split story passenger transport.
+Fixed certain Rescue Ship missions accepting transfer of ship with modified equipment.
+Fixed inaccurately displayed reward in trade guild Deliver Fleet missions.
+Fixed conversation option when hiring crew and immediately assigning them to Deliver Crew mission station.
+Fixed Amplifier Station in Save Them From Themselves mission not leaving behind wreck.
+Fixed story characters getting random names when becoming passengers.
+Fixed some story missions being abortable.
+Fixed mission lockboxes not rotating.
+Fixed being unable to complete ship mod research mission if it was previously aborted.
+Fixed advanced terraforming projects not being available if Cradle of Humanity is enabled after terraforming is unlocked.
+Fixed adding gases increasing air pressure on worlds where that stat is not relevant.
+Fixed player-owned subordinates sometimes not trading with other player property due to lack of funds when they don't actually need to pay.
+Fixed looped trade orders not accounting for discounts when looking for trades with matching price thresholds.
+Fixed incorrect trade offer price calculation for certain shipyards.
+Fixed rebuilt build modules remaining inoperable after being wrecked before hack expired.
+Fixed ships undergoing recycling disappearing when stored resulting in no recycled resources being gained.
+Fixed modules under construction which are then destroyed not being recycled properly.
+Fixed build storage of destroyed stations sometimes remaining in longer than intended.
+Fixed more resources being returned to build storage when recycling station loadout upgrades.
+Fixed very rare case resulting in broken ship movement when teleporting between ships in same highway.
+Fixed automatic storage allocation breaking for stations with extremely large number of production modules.
+Fixed subordinate traders sometimes buying then immediately re-selling same wares at commanding station.
+Fixed boarding ships not trying to keep their boarding target alive while moving to engage.
+Fixed turret control of boarding ships sometimes reacquiring target after target hull is below safe threshold.
+Fixed player-owned mining ships finding resources in undiscovered areas of known sectors.
+Fixed mining ships not firing on asteroids if any turrets are set to Attack All Enemies.
+Fixed ships with turrets set to Attack Capital Ships or Attack Fighters not firing unless at least one turret is also set to Attack all Enemies.
+Fixed turrets set to Missile Defence not working.
+Fixed ships sometimes not uncovering areas hidden by fog of war.
+Fixed player-owned ships finding paths through undiscovered sectors.
+Fixed auto-traders not correctly updating when loading certain older savegames.
+Fixed some buttons and doors not working after teleporting to station.
+Fixed autopilot not working if guidance target is unknown and/or inactive gate or accelerator.
+Fixed autopilot not using travel mode when approaching gate or accelerator.
+Fixed not being able to call ship from storage if its cover faction is hostile to owner of object at which it is docked.
+Fixed ships sometimes starting final dock movement many kilometers from dock.
+Fixed never getting docking permission under certain rare circumstances.
+Fixed fleeing ships repeatedly docking and undocking.
+Fixed cases of ships being permanently unable to undock.
+Fixed explosions of large objects not doing damage.
+Fixed cases of duplicated HQ research modules.
+Fixed Terran solar panels costing more resources than intended.
+Fixed Kha'ak weapon platforms sometimes being unarmed.
+Fixed Kha'ak outposts no longer appearing over time in certain situations.
+Fixed pirate ships plundering objects belonging to friendly factions.
+Fixed attacking capital ships staying outside weapon range.
+Fixed weapons not shooting under certain circumstances.
+Fixed being able to collide with hidden bridge geometry.
+Fixed broken collision detection when flying certain ships near large objects.
+Fixed ship turrets sometimes damaging their own ship under certain circumstances.
+Fixed issues with cargo drones docking when many of them try to dock at same time.
+Fixed entering ship not removing attached boarding pods.
+Fixed wrong movement orientation when approaching dock in some situations.
+Fixed newly constructed Terran Solar Power Plants constructing storage last resulting in delayed production.
+Fixed some homeless workers remaining on station after their habitation has gone.
+Fixed AI ships flying too slowly in travel mode while in formation.
+Fixed spacesuit in Split gamestart sometimes being very slow.
+Fixed being able to place station modules in invalid locations.
+Fixed group trainees sometimes remaining in-transit on Headquarters.
+Fixed carriers or fleet auxiliary ships subordinate to stations failing to get supplies.
+Fixed player-owned ships set to explore or update trade offers sometimes traveling to sectors outside their target space.
+Fixed ships assigned to protect stations continuing to patrol their area after their assigned station is destroyed.
+Fixed subordinates of subordinates not docking if assigned while their intermediate superior is already docked.
+Fixed missile-armed ships and stations with no ammunition doing damage when player is not present.
+Fixed Segaris Pioneer ships being crewed by people in Terran Protectorate uniforms.
+Fixed ships operating in vicinity of one-way superhighways going to work in sectors they might not be able to return from.
+Fixed ships forced to bail sometimes retaining their old default behaviour.
+Fixed missing item trader on stations.
+Fixed being able to jump out of bounds in shops on docking areas.
+Fixed being able to assign one extra service crew or marine to ships in certain cases.
+Fixed subordinates of stations failing to recover if their commander is destroyed while they are searching for trades.
+Fixed boarding pods not being able to fly and attach on boarding operations.
+Fixed capital-class mining ships sometimes not firing on asteroids.
+Fixed station supply settings not working without manager.
+Fixed autopilot getting stuck in loop on highway ring if full path to destination is not known.
+Fixed jumping between highways on autopilot.
+Fixed police authority menu not working if too many sectors are player-owned.
+Fixed Collision Avoidance not working even if game setting is set.
+Fixed ships not firing at stations even if target directly in front of barrel.
+Fixed defence drones set to Attack my Current Target docking without engaging shortly after launch.
+Fixed ware transfer sometimes stalling with one ship locked in critical state.
+Fixed subordinates sometimes docking at their respective commanders indefinitely.
+Fixed ships sometimes not been able to dock in enclosed docks.
+Fixed NPC station managers sometimes giving double rewards.
+Fixed excessive damage when missiles hit certain targets.
+Fixed lasertowers sometimes locking on to distant targets when hostile targets are within firing range.
+Fixed Split factions not rebuilding trading stations.
+Fixed Map icons of docked ships flickering between two positions under certain circumstances.
+Fixed position of icons next to trade offers on Map when view is rotated.
+Fixed object select mode in Map not working in gamepad mode.
+Fixed certain Xenon stations being invisible in Savage Spur.
+Fixed cargo display in ware exchange menu for stations owning mining ships.
+Fixed inaccurate text for manual buy/sell offer amount settings in Logical Station Overview.
+Fixed several issues with ammo and drone quantities in Logical Station Overview.
+Fixed future station construction resources not appearing in Station Configuration menu if build is already in progress.
+Fixed Ware Transfer options when docked at another ship.
+Fixed Request dock at option not being disabled when already docked at that object.
+Fixed option to change Default Behaviour not being disabled under certain circumstances.
+Fixed planned Default Behaviour changes getting stuck when changing to another menu tab.
+Fixed ships retaining previous Default Behaviour when being set to Repeat Orders.
+Fixed station-wide loadout level resetting every time Station Build menu is closed.
+Fixed problems with Personnel Management menu if ships get destroyed.
+Fixed Sell Ships menu not being displayed or not being scrollable under certain circumstances.
+Fixed loadout presets being available for ships with installed equipment mods
+Fixed inconsistency between player ship and other player-owned objects regarding whether default orders of subordinates can be changed.
+Fixed medium ships incorrectly showing missile turret compatibility in menus.
+Fixed missing title text in Interact menu under certain circumstances.
+Fixed missing interactions in Crew Info tab for player employees on stations.
+Fixed mismatched construction budget estimates in several locations.
+Fixed traders adding logbook entries describing purchase after having sold ware.
+Fixed Terraforming Expenses stat being too high by factor of 100.
+Fixed Terraforming projects showing invalid resources if more was delivered than needed.
+Fixed overlapping text in Ship Configuration menu.
+Fixed input mapping conflict not being detected when assigning axis.
+Fixed lost HUD target if mission guidance changes under certain circumstances.
+Fixed missing automatic storage allocation option in Logical Station Overview under certain circumstances.
+Fixed blank context menus in Station Build menu under certain circumstances.
+Fixed blank terraforming nodes under certain circumstances.
+Fixed inactive dropdown options seeming to be interactive when clicked.
+Fixed name of Station Cargo map filter to correctly indicate that it also works for ships.
+Fixed inconsistent sorting in Mission Offers and Mission Manager menus.
+Fixed matching icons not being visible at some zoom levels when text filter is applied.
+Fixed selected ships and stations not showing full cargo on map if filter is active.
+Fixed rare fog of war issues when opening Map right after long range scan.
+Fixed jumpgate and superhighway connections on Map becoming misaligned.
+Fixed flickering target elements if target is moving close to crosshair.
+Fixed order parameter sliders resetting while being used.
+Fixed displayed of per-quadrant DPS information.
+Fixed Station Construction entries in Account Management menu showing station account values while using slider.
+Fixed mouse-over texts for Interact menu build storage options referencing station.
+Fixed order parameter position selection interacting with order lines.
+Fixed changing radius parameter of default behaviours resetting position parameter.
+Fixed Mission Manager and Mission Offers menus keeping expanded sections in sync.
+Fixed menu crash when cancelling ship orders under certain circumstances.
+Fixed save name not being immediately changeable if there is no save yet.
+Fixed long range scan getting stuck when triggered while menu is open.
+Fixed missing countermeasure blueprints in encyclopedia.
+Fixed flight assist and auto-pilot control messages not being shown after loading saves.
+Fixed storage nodes in Logical Station Overview not marked restricted under certain circumstances.
+Fixed Shuffle Modules option in Station Editor when modules include Terran solar panels.
+Fixed map sometimes zooming sectors out too far.
+Fixed various localisation issues.
+Fixed Terraforming menu crash.
+Fixed Paranid head clipping through cockpit roof in Cerberus.
+Fixed NPCs walking over furniture in Faction Representative office and Secret Service Bureau.
+Fixed cockpit crew sometimes not interacting with terminals.
+Fixed visiting NPCs behaving as though they are local crew.
+Fixed Split and Terran NPCs neglecting their air marshalling duties.
+Fixed pilots and ship crew from player-owned shipyards being random races instead of workforce races.
+Fixed defenders in boarding operation earning experience when boarding attempt is cancelled or fails before marines even breach hull.
+Fixed marines on stations running out of sight soon after docking.
+Fixed Yaki appearing on dock areas where they shouldn't.
+Fixed jump effect sometimes not coinciding with destination position on sector transition.
+Fixed rare cases where Venture Dock would still appear as if venture was running after ship returned.
+Fixed scaling problems in station editor when copying sequences repeatedly.
+Fixed looped animations stuttering at very large time values.
+Fixed brief incorrect image display in several menus.
+Fixed weapon effects being visible in upgrade menu.
+Fixed floating turrets on small Terran Liquid Storage module.
+Fixed turrets being rotated wrongly on Argon Defence Disk.
+Fixed visual glitch in Microchip production module.
+Fixed build modules being offset when wrecked.
+Fixed turrets being located on top of player logo on Nomad.
+Fixed turrets on Tokyo clipping inside ship hull.
+Fixed floating geometry in Manorina gas miner ship.
+Fixed misaligned Cerberus spacesuit dock.
+Fixed wrong texture on Okinawa bridge window.
+Fixed missing holo-instruments on Argon XL bridge.
+Fixed mirrored decals in Argon L bridge.
+Fixed excessive number of positional lights on Osprey.
+Fixed rotating flack bullets.
+Fixed holographic ship controls for NPCs not being enabled when NPC sits in chair.
+Fixed comm cameras not working when in external view.
+Fixed pink faces on male Argon NPCs.
+Fixed effect at dock persisting after touchdown if ship docked backwards.
+Fixed Mercury faction logo missing on right side.
+Fixed incorrect grouping of turrets on Advanced Electronics production module.
+Fixed sharp line on Katana cockpit glass.
+Fixed Nimcha landing gear not being attached properly.
+Fixed cockpit glass on Falcon not registering collisions.
+Fixed floating light and mirrored faction logo on Jian.
+Fixed inverted panel texture in security office.
+Fixed permanently missing texts in menus.
+Fixed graphical assets failing to load during long game-sessions.
+Fixed game freeze with mods containing invalid assets.
+Fixed several causes of crashes.
+
+Improved combat simulation when player not present.
+Improved coordination between multiple free-flying police operating in same sector.
+Improved memory usage, savegame size, and times to start new game, save and load.
+Fixed being unable to set Yaki story as complete for custom gamestarts if not successful in mission.
+Fixed player stations created from custom gamestarts not detecting enemies.
+Fixed player not being able to target objects if spawning in space suit in custom gamestart.
+Fixed linear highways being disabled when ring highways are disabled in custom gamestart.
+Fixed ships with turrets potentially not shooting if created via a custom gamestart.
+Fixed Flight School getting stuck if certain non-critical inputs are not mapped.
+Fixed A Small Errand mission getting stuck if all lockboxes are opened in quick succession.
+Fixed The Meeting mission not triggering mission guidance properly after fleeing patrol.
+Fixed fleet delivered in The Mediators mission absorbing Realm of the Trinity job ships.
+Fixed Split Story mission Zyarth's Coffin getting stuck when attempting to find station for Undercover Trade Ship.
+Fixed Terran plot being blocked by Delilah's disappearance upon Sweet Jack's destruction.
+Fixed Defenders of Sol mission not being offered if player begins game with max relations with Terran Protectorate.
+Fixed A Matter of Respect mission getting stuck if informant's ship is captured before player approaches mission area.
+Fixed A Heart for Pirates mission not playing dialog on completion.
+Fixed Torus riddle switches being repairable while shutters are closed, resulting in riddle being impossible to solve.
+Fixed hacking missions targeting stations without docks.
+Fixed scan missions sometimes asking player to scan laser tower.
+Fixed Terran vs Xenon guild missions asking player to scan Xenon ships carrying Hull Parts or Water.
+Fixed Terran or Pioneers scan missions asking for wares that aren't used by Terran economy.
+Fixed incorrect collision detection during space suit section of Flight School tutorial.
+Fixed stations recycling wrecked modules too quickly and making station destruction difficult.
+Fixed capital ships with main weapons (e.g. Asgard) being excessively effective when player not present.
+Fixed mining ships concentrating in areas with relatively low yield.
+Fixed mining drones on player ship sometimes collecting empty or incorrect asteroids.
+Fixed mining drones sometimes undocking or self-destructing shortly after having returned to launching ship.
+Fixed NPC-owned subordinates sometimes staying docked indefinitely.
+Fixed Protect Position default behaviour sometimes ending even if designated position is accessible.
+Fixed turrets retaining out-of-range targets for too long.
+Fixed marines on boarding operation sometimes being lost after saving and loading.
+Fixed boarding attacker strength sometimes being less than it should.
+Fixed long boarding operations failing prematurely if straggling pod is destroyed.
+Fixed default orders using wrong parameters after editing.
+Fixed rare case where sell override settings for station ware could reset to 0.
+Fixed loss of flight control by preventing activation of autopilot during undocking procedure.
+Fixed disabled flight assist when retaking control after getting up during post-travel mode coasting.
+Fixed station-based traders sometimes selling more than what their customers wanted.
+Fixed station trade subordinates never selling product due to resource storage override.
+Fixed subordinates mimicking auto-trader not logging their trades.
+Fixed turrets set to Attack my current target continuing to fire after target changes ownership to non-hostile.
+Fixed large turrets missing small targets by aiming at wrong position.
+Fixed turrets often failing to fire at large moving targets.
+Fixed discrepancies with licence requirements for Teladi turrets.
+Fixed station module repair sometimes not quite reaching 100%.
+Fixed calculated value of ships not taking all installed software into account.
+Fixed incorrect yield display for resource probes in target monitor.
+Fixed incorrect display of shield damage impact effects.
+Fixed free ship repair exploit.
+Fixed exporting custom gamestarts with no player money.
+Fixed flight assist control message wrongly shown after loading saves under certain circumstances.
+Fixed Phoenix main battery effective rate of fire.
+Fixed problem with guild submissions in mission briefing menu.
+Fixed menu crash when opening Ship Overview under certain circumstances.
+Fixed Magpie cockpit hatch pushing player into ship wall when opening.
+Fixed freeze when loading save if HQ core module was under construction.
+Fixed potential issue with screen being stuck black on integrated AMD GPUs.
+Fixed joystick POV hat input on Linux.
+Fixed several causes of crashes.
