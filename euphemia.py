@@ -23,9 +23,16 @@ generate_text = ('To generate some text, type `-generate [generator]`. Some gene
                  '`dwchar`: Generate a Dungeon World character.\n'
                  '`pwregion`: Generate the name of a region in the Perilous Wilds.\n'
                  '`pwplace`: Generate the name of a place in the Perilous Wilds.\n'
+                 '`pwdungeon`: Generate a dungeon in the Perilous Wilds.\n'
+                 '`pwarea`: Generate a dungeon area in the Perilous Wilds.\n'
+                 '`pwcreature`: Generate a creature in the Perilous Wilds.\n'
+                 '`pwddanger`: Generate a dungeon danger in the Perilous Wilds.\n'
+                 '`bobmissions`: Generate a set of missions for Band of Blades.\n'
+                 '`missionname`: Generate a cool name for a mission.\n'
                  '`gmprompt`: Generate a prompt a game master might give a player. Often silly.\n'
                  '`quest`: Generate a quest.\n'
-                 '`eldergod`: Generates the name and domain of an elder god. If you read the output do a sanity check.')
+                 '`eldergod`: Generates the name and domain of an elder god. If you read the output do a sanity check.\n'
+                 '`eldenringmessage`: Generates a player message like you may find in Elden Ring.\n')
 
 async def handle_message(message, bot):
     args = message.content.lower()
@@ -66,12 +73,36 @@ async def handle_message(message, bot):
             await message.channel.send(euphemia_gens.dwpw.flatten('#region#'))
         elif 'pwplace' in commands:
             await message.channel.send(euphemia_gens.dwpw.flatten('#place#'))
+        elif 'pwdungeon' in commands:
+            await message.channel.send(euphemia_gens.dwpw.flatten('#dungeon#'))
+        elif 'pwarea' in commands:
+            await message.channel.send(euphemia_gens.dwpw.flatten('#dungeonArea#'))
+        elif 'pwcreature' in commands:
+            await message.channel.send(euphemia_gens.dwpw.flatten('#creatureFull#'))
+        elif 'pwddanger' in commands:
+            await message.channel.send(euphemia_gens.dwpw.flatten('#dungeonDanger#'))
+        elif 'pwfollower' in commands:
+            await message.channel.send(euphemia_gens.dwpw.flatten('#follower#'))
+        elif 'bobmissions' in commands:
+            await message.channel.send(euphemia_gens.bandofblades.flatten('#missions#'))
+        elif 'bobassaultmission' in commands:
+            await message.channel.send(euphemia_gens.bandofblades.flatten('#assaultmission#'))
+        elif 'bobreconmission' in commands:
+            await message.channel.send(euphemia_gens.bandofblades.flatten('#reconmission#'))
+        elif 'bobreligiousmission' in commands:
+            await message.channel.send(euphemia_gens.bandofblades.flatten('#religiousmission#'))
+        elif 'bobsupplymission' in commands:
+            await message.channel.send(euphemia_gens.bandofblades.flatten('#supplymission#'))
+        elif 'missionname' in commands:
+            await message.channel.send(euphemia_gens.bandofblades.flatten('#missionname#'))
         elif 'gmprompt' in commands:
             await message.channel.send(euphemia_gens.gmprompt.flatten('#origin#'))
         elif 'quest' in commands:
             await message.channel.send(euphemia_gens.gmprompt.flatten('#quest#'))
         elif 'eldergod' in commands:
             await message.channel.send(euphemia_gens.generate_elder_god(args))
+        elif 'eldenringmessage' in commands:
+            await message.channel.send(euphemia_gens.generate_elden_ring_message(args))
         elif 'xpatch' in commands:
             await message.channel.send(euphemia_gens.generate_x_patch(message.content[17:]))
         elif 'x3sector' in commands:

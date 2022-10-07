@@ -1,0 +1,49 @@
+{
+    "assaulttype": [ "People", "The Wild", "Undead", "Undead", "Powerful Undead", "Powerful Undead" ],
+    "assaultrewards": [ "+2 Morale", "+3 Morale", "+4 Morale", "+2 Morale, +1 Supply", "+2 Morale, +1 Intel", "+2 Morale, -1 Time" ],
+    "assaultpenalties": [ "+1 Pressure, +1 Time", "+1 Time", "-1 Supply", "+1 Pressure", "+1 Pressure", "+1 Pressure" ],
+    "assaultmission": [ "Assault. **Type**: #assaulttype#. **Rewards**: #assaultrewards#. **Penalties**: #assaultpenalties#." ],
+
+    "recontype": [ "Area Recon", "Route Recon", "Troop Recon", "Infiltration", "Exfiltration", "Pick type + Danger" ],
+    "reconrewards": [ "+2 Intel", "+2 Intel", "Asset, +1 Intel", "Asset or Troops, +1 Intel", "+1 Intel, -1 Time", "+3 Intel" ],
+    "reconpenalties": [ "+1 Time", "2 Deaths", "1 Death", "+1 Pressure", "+1 Pressure", "None" ],
+    "reconmission": [ "Recon. **Type**: #recontype#. **Rewards**: #reconrewards#. **Penalties**: #reconpenalties#." ],
+
+    "religioustype": [ "Escort", "Cleansing", "Defense", "Unearth", "Pick Type + Favor", "Pick Type + Favor" ],
+    "religiousrewards": [ "-1 Time, + 2 xp", "+2 Morale, +10 Points", "+1 Intel, +2 Morale", "Fine Asset", "Exceptional Asset", "#specialist#" ],
+    "religiouspenalties": [ "-1 Morale, +1 Pressure", "+1 Pressure", "+1 Pressure", "-1 Morale", "-1 Morale", "None" ],
+    "religiousmission": [ "Religious. **Type**: #religioustype#. **Rewards**: #religiousrewards#. **Penalties**: #religiouspenalties#." ],
+
+    "supplytype": [ "Scrounge or Trade", "Rescue Supplies", "Mercenary Work" ],
+    "supplyrewards": [ "Asset, +1 Supply", "Asset, +1 Supply", "+2 Supply", "Asset, +2 Supply", "+3 Supply", "+3 Supply" ],
+    "supplypenalties": [ "-1 Morale, -1 Supply", "-1 Supply", "-1 Morale", "-1 Morale", "None", "None" ],
+    "supplymission": [ "Supply. **Type**: #supplytype#. **Rewards**: #supplyrewards#. **Penalties**: #supplypenalties#." ],
+
+    "favor": [ "Holy", "Mystic", "Glory", "Knowledge", "Mercy", "Wild" ],
+
+    "specialist": [ "Heavy", "Medic", "Scout", "Sniper", "Officer", "Alchemist or Mercy" ],
+
+    "missionprefix": [ "Azure", "Amber", "Broken", "Chosen", "Crimson", "Diamond", "Emerald", "Flying", "Grasping", "Screaming", "Shattered", "Western", "Swift", "Unceasing", "Vengeful", "Lone", "Cold", "Hot", "Purple", "Brutal", "Flying", "Driving", "Blind", "Demon", "Enduring", "Defiant", "Lost", "Dying", "Falling", "Soaring", "Twisted", "Glass", "Bleeding", "Broken", "Silent", "Red", "Black", "Dark", "Fallen", "Patient", "Burning", "Final", "Lazy", "Morbid", "Crimson", "Cursed", "Frozen", "Bloody", "Banished", "First", "Severed", "Empty", "Spectral", "Sacred", "Stone", "Shattered", "Hidden", "Rotting", "Devil's", "Forgotten", "Blinding", "Fading", "Crystal", "Secret", "Cryptic", "Smoking", "Heaving", "Steaming", "Righteous", "Purple", "Amber", "Wailing", "Cosmic", "Foolish", "Brooding", "Failing", "Gasping", "Starving", "Sinking", "Holy", "Unholy", "Potent", "Haunting", "Pungent", "Golden", "Iron", "Shackled", "Laughing", "Damned", "Poisoned", "Half-eaten", "Summoned", "Gilded", "Manic", "Precious", "Outer", "Little", "Choking", "Half-dead", "Steely", "Massive", "Dismal", "Rebel", "Dread", "Sleeping", "Magic", "Dripping", "Faceless", "Shambling", "Furious", "Dead Man's", "Perilous", "Heavy", "Ancient", "Jagged", "Northern", "Earthly", "Hellish", "Hellborn", "Blessed", "Buried", "Senseless", "Blood-Soaked", "Sweaty", "Drunken", "Dragon", "Doom", "Shadow", "Night", "Witch", "Steel", "Fire", "Blood", "God", "Demon", "War", "Hammer", "Star", "Iron", "Spider", "Ice", "Knife", "Mountain", "Death", "Diamond", "Frost", "Moon", "Swamp", "Ghost", "Sky", "Dawn", "Storm", "Tomb", "Crypt", "Bone", "Hell", "Winter", "Wolf" ],
+    "missionpostfix": [ "Arrow", "Citadel", "Fire", "Hawk", "Light", "Mountain", "Peak", "Storm", "Thorn", "Tiger", "Wing", "Wolf", "Engine", "Chant", "Heart", "Justice", "Law", "Thunder", "Moon", "Heat", "Fear", "Star", "Apollo", "Prophet", "Hero", "Hydra", "Serpent", "Crown", "Thorn", "Empire", "Summer", "Druid", "God", "Savior", "Stallion", "Hawk", "Vengeance", "Calm", "Knife", "Sword", "Dream", "Sleep", "Stroke", "Flame", "Spark", "Fist", "Dirge", "Grave", "Shroud", "Breath", "Smoke", "Giant", "Whisper", "Night", "Throne", "Pipe", "Blade", "Daze", "Pyre", "Tears", "Mother", "Crone", "King", "Father", "Priest", "Dawn", "Hammer", "Shield", "Hymn", "Vanguard", "Sentinel", "Stranger", "Bell", "Mist", "Fog", "Jester", "Scepter", "Ring", "Skull", "Paramour", "Palace", "Mountain", "Rain", "Gaze", "Future", "Gift", "Grin", "Omen", "Tome", "Wail", "Shriek", "Glove", "Gears", "Slumber", "Beast", "Wolf", "Widow", "Witch", "Prince", "Skies", "Dance", "Spear", "Key", "Fog", "Feast", "Cry", "Claw", "Peak", "Valley", "Shadow", "Rhyme", "Moan", "Wheel", "Doom", "Mask", "Rose", "Gods", "Whale", "Saga", "Sky", "Chalice", "Agony", "Misery", "Tears", "Rage", "Anger", "Laughter", "Terror", "Gasp", "Tongue", "Cobra", "Snake", "Cavern", "Corpse", "Prophecy", "Vagabond", "Altar", "Death", "Reckoning", "Fall", "Fist", "Storm", "Blade", "Star", "Hammer", "Witch", "Dragon", "Fire", "Wheel", "Tooth", "Hound", "Hand", "Hawk", "God", "Father", "Mother", "Knife", "Giant", "Steed", "Strike", "Slap", "Killer", "Mask", "Walk", "Fort", "Tower", "Face", "Tomb", "Valley", "Claw", "King", "Queen", "Beast", "Saga", "Song", "Chalice", "Walker", "Breaker", "Wagon", "Shield", "Shadow", "Dance", "Hole", "Stank", "Shriek", "Child", "Prince", "Slayer" ],
+    "missionname": [ "#missionprefix# #missionpostfix#" ],
+
+    "missiontype": [
+        "#assaultmission#",
+        "#reconmission#",
+        "#religiousmission#",
+        "#supplymission#",
+        "Commander's Focus.",
+        "GM's Choice."
+     ],
+
+    "mission": [ "Operation #missionname#. #missiontype#" ],
+
+    "missions": [
+        "2 missions:\n1) #mission#\n2) #mission#",
+        "3 missions:\n1) #mission#\n2) #mission#\n3) #mission#",
+        "3 missions:\n1) #mission#\n2) #mission#\n3) #mission#",
+        "3 missions:\n1) #mission#\n2) #mission#\n3) #mission# **Specialist**: #specialist#.",
+        "3 missions:\n1) #mission#\n2) #mission#\n3) #mission# **Favor: #favor#.",
+        "3 missions:\n1) #mission#\n2) #mission#\n3) Special Mission"
+     ]
+}

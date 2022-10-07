@@ -29,6 +29,16 @@ with open('eldergod.json') as eldergodfile:
     eldergod = tracery.Grammar(json.load(eldergodfile))
     eldergod.add_modifiers(base_english)
 
+with open('eldenring.json') as eldenringfile:
+    print('Loading eldenring.json')
+    eldenring = tracery.Grammar(json.load(eldenringfile))
+    eldenring.add_modifiers(base_english)
+
+with open('bandofblades.json') as bandofbladesfile:
+    print('Loading bandofblades.json')
+    bandofblades = tracery.Grammar(json.load(bandofbladesfile))
+    bandofblades.add_modifiers(base_english)
+
 with open('xpatch.txt') as xpatchfile:
     print('Loading xpatch.txt')
     xpatchtext = xpatchfile.read()
@@ -112,6 +122,9 @@ def generate_dwpw_place(args):
 def generate_elder_god(args):
     #TODO: support arguments similar to generate_name()
     return eldergod.flatten("#origin#")
+
+def generate_elden_ring_message(args):
+    return eldenring.flatten("#message#")
 
 def generate_x_patch(start):
     if start:
